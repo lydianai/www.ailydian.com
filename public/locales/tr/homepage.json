@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "LyDian AI — Ödüllü AI Ekosistemi | Türkiye'nin Yapay Zeka Platformu",
+    "description": "Tıbbi AI, Hukuki AI, IQ Testi ve 8 Uzman Danışman. 40+ dilde çok modelli yapay zeka. Hemen ücretsiz deneyin.",
+    "keywords": "yapay zeka platformu, ai türkiye, tıbbi yapay zeka, hukuki ai, iq testi ai, çok dilli ai, lydian ai"
+  },
+  "seo": {
+    "og": {
+      "title": "LyDian AI — Ödüllü AI Ekosistemi | Türkiye'nin Yapay Zeka Platformu",
+      "description": "Tıbbi AI, Hukuki AI, IQ Testi ve 8 Uzman Danışman. 40+ dilde çok modelli yapay zeka. Hemen ücretsiz deneyin.",
+      "image": "/og-images/homepage-tr.jpg",
+      "type": "website",
+      "locale": "tr_TR"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "LyDian AI — Ödüllü AI Ekosistemi | Türkiye'nin Yapay Zeka Platformu",
+      "description": "Tıbbi AI, Hukuki AI, IQ Testi ve 8 Uzman Danışman. 40+ dilde çok modelli yapay zeka. Hemen ücretsiz deneyin.",
+      "image": "/og-images/homepage-tr.jpg"
+    },
+    "geo": {
+      "geo.region": "TR",
+      "geo.placename": "İstanbul",
+      "geo.position": "41.0082,28.9784",
+      "ICBM": "41.0082,28.9784"
+    },
+    "canonical": "https://www.ailydian.com/"
+  }
+}

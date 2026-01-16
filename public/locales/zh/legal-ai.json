@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "LyDian Legal AI — 法律AI顾问 | AI律师",
+    "description": "AI法律咨询。100万+法院判决分析、合同审查、立法筛选。10万+次咨询。获取法律建议。",
+    "keywords": "法律人工智能, ai律师, 法律顾问ai, 合同分析, 法院判决, lydian legal"
+  },
+  "seo": {
+    "og": {
+      "title": "LyDian Legal AI — 法律AI顾问 | AI律师",
+      "description": "AI法律咨询。100万+法院判决分析、合同审查、立法筛选。10万+次咨询。获取法律建议。",
+      "image": "/og-images/legal-ai-zh.jpg",
+      "type": "website",
+      "locale": "zh_CN"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "LyDian Legal AI — 法律AI顾问 | AI律师",
+      "description": "AI法律咨询。100万+法院判决分析、合同审查、立法筛选。10万+次咨询。获取法律建议。",
+      "image": "/og-images/legal-ai-zh.jpg"
+    },
+    "geo": {
+      "geo.region": "CN",
+      "geo.placename": "Beijing",
+      "geo.position": "39.9042,116.4074",
+      "ICBM": "39.9042,116.4074"
+    },
+    "canonical": "https://www.ailydian.com/legal-expert"
+  }
+}

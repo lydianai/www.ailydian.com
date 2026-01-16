@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "LyDian AI — 获奖人工智能平台 | AI生态系统",
+    "description": "医疗AI、法律AI、智商测试及8位专家顾问。40+种语言的多模型AI解决方案。立即免费试用。",
+    "keywords": "人工智能平台, 医疗人工智能, 法律人工智能, 智商测试, 多语言人工智能, lydian ai"
+  },
+  "seo": {
+    "og": {
+      "title": "LyDian AI — 获奖人工智能平台 | AI生态系统",
+      "description": "医疗AI、法律AI、智商测试及8位专家顾问。40+种语言的多模型AI解决方案。立即免费试用。",
+      "image": "/og-images/homepage-zh.jpg",
+      "type": "website",
+      "locale": "zh_CN"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "LyDian AI — 获奖人工智能平台 | AI生态系统",
+      "description": "医疗AI、法律AI、智商测试及8位专家顾问。40+种语言的多模型AI解决方案。立即免费试用。",
+      "image": "/og-images/homepage-zh.jpg"
+    },
+    "geo": {
+      "geo.region": "CN",
+      "geo.placename": "Beijing",
+      "geo.position": "39.9042,116.4074",
+      "ICBM": "39.9042,116.4074"
+    },
+    "canonical": "https://www.ailydian.com/"
+  }
+}

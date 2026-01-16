@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "AI Chat — 5 نماذج AI في واجهة واحدة | دردشة متعددة النماذج",
+    "description": "واجهة موحدة لـ Claude و GPT-4 و Gemini. تحليل النص والصورة والكود. +1 مليون محادثة، دعم +40 لغة. ابدأ دردشة مجانية.",
+    "keywords": "دردشة ذكاء اصطناعي, شات ai, ذكاء اصطناعي متعدد النماذج, claude شات, gpt-4 عربي"
+  },
+  "seo": {
+    "og": {
+      "title": "AI Chat — 5 نماذج AI في واجهة واحدة | دردشة متعددة النماذج",
+      "description": "واجهة موحدة لـ Claude و GPT-4 و Gemini. تحليل النص والصورة والكود. +1 مليون محادثة، دعم +40 لغة. ابدأ دردشة مجانية.",
+      "image": "/og-images/chat-ar.jpg",
+      "type": "website",
+      "locale": "ar_SA"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Chat — 5 نماذج AI في واجهة واحدة | دردشة متعددة النماذج",
+      "description": "واجهة موحدة لـ Claude و GPT-4 و Gemini. تحليل النص والصورة والكود. +1 مليون محادثة، دعم +40 لغة. ابدأ دردشة مجانية.",
+      "image": "/og-images/chat-ar.jpg"
+    },
+    "geo": {
+      "geo.region": "SA",
+      "geo.placename": "Riyadh",
+      "geo.position": "24.7136,46.6753",
+      "ICBM": "24.7136,46.6753"
+    },
+    "canonical": "https://www.ailydian.com/chat"
+  }
+}

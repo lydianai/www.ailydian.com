@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "AI Chat — 5 AI Modeli Tek Arayüzde | Çok Modelli Sohbet",
+    "description": "Claude, GPT-4, Gemini birleşik arayüz. Metin, görsel, kod analizi. 1M+ konuşma, 40+ dil desteği. Ücretsiz sohbet başlat.",
+    "keywords": "ai sohbet, yapay zeka chat, çok modelli ai, claude chat, gpt-4 türkçe, ai asistan"
+  },
+  "seo": {
+    "og": {
+      "title": "AI Chat — 5 AI Modeli Tek Arayüzde | Çok Modelli Sohbet",
+      "description": "Claude, GPT-4, Gemini birleşik arayüz. Metin, görsel, kod analizi. 1M+ konuşma, 40+ dil desteği. Ücretsiz sohbet başlat.",
+      "image": "/og-images/chat-tr.jpg",
+      "type": "website",
+      "locale": "tr_TR"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Chat — 5 AI Modeli Tek Arayüzde | Çok Modelli Sohbet",
+      "description": "Claude, GPT-4, Gemini birleşik arayüz. Metin, görsel, kod analizi. 1M+ konuşma, 40+ dil desteği. Ücretsiz sohbet başlat.",
+      "image": "/og-images/chat-tr.jpg"
+    },
+    "geo": {
+      "geo.region": "TR",
+      "geo.placename": "İstanbul",
+      "geo.position": "41.0082,28.9784",
+      "ICBM": "41.0082,28.9784"
+    },
+    "canonical": "https://www.ailydian.com/chat"
+  }
+}

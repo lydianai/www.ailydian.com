@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "AI Chat — 5个AI模型一个界面 | 多模型聊天",
+    "description": "Claude、GPT-4、Gemini统一界面。文本、视觉、代码分析。100万+对话，支持40+种语言。开始免费聊天。",
+    "keywords": "ai聊天, 人工智能聊天, 多模型ai, claude聊天, gpt-4中文, ai助手"
+  },
+  "seo": {
+    "og": {
+      "title": "AI Chat — 5个AI模型一个界面 | 多模型聊天",
+      "description": "Claude、GPT-4、Gemini统一界面。文本、视觉、代码分析。100万+对话，支持40+种语言。开始免费聊天。",
+      "image": "/og-images/chat-zh.jpg",
+      "type": "website",
+      "locale": "zh_CN"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Chat — 5个AI模型一个界面 | 多模型聊天",
+      "description": "Claude、GPT-4、Gemini统一界面。文本、视觉、代码分析。100万+对话，支持40+种语言。开始免费聊天。",
+      "image": "/og-images/chat-zh.jpg"
+    },
+    "geo": {
+      "geo.region": "CN",
+      "geo.placename": "Beijing",
+      "geo.position": "39.9042,116.4074",
+      "ICBM": "39.9042,116.4074"
+    },
+    "canonical": "https://www.ailydian.com/chat"
+  }
+}

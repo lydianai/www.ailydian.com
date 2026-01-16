@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "LyDian AI — Award-Winning AI Ecosystem | AI Platform",
+    "description": "Medical AI, Legal AI, IQ Testing & 8 Expert Advisors. Multi-model AI solutions in 40+ languages. Try free now.",
+    "keywords": "ai platform, artificial intelligence, medical ai, legal ai, iq test ai, multilingual ai, lydian ai"
+  },
+  "seo": {
+    "og": {
+      "title": "LyDian AI — Award-Winning AI Ecosystem | AI Platform",
+      "description": "Medical AI, Legal AI, IQ Testing & 8 Expert Advisors. Multi-model AI solutions in 40+ languages. Try free now.",
+      "image": "/og-images/homepage-en.jpg",
+      "type": "website",
+      "locale": "en_US"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "LyDian AI — Award-Winning AI Ecosystem | AI Platform",
+      "description": "Medical AI, Legal AI, IQ Testing & 8 Expert Advisors. Multi-model AI solutions in 40+ languages. Try free now.",
+      "image": "/og-images/homepage-en.jpg"
+    },
+    "geo": {
+      "geo.region": "US",
+      "geo.placename": "California",
+      "geo.position": "37.7749,-122.4194",
+      "ICBM": "37.7749,-122.4194"
+    },
+    "canonical": "https://www.ailydian.com/"
+  }
+}

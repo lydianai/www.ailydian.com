@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "AI Advisor Hub — 8 Expert AI Advisors | AI Consulting Platform",
+    "description": "8 expert AIs in one platform. Culture, Decision, Health, Knowledge, Learning, Life, Meeting, Startup. 300K+ consultations. Choose advisor.",
+    "keywords": "ai advisor, expert ai, life coach ai, startup advisor, decision matrix, ai advisor hub"
+  },
+  "seo": {
+    "og": {
+      "title": "AI Advisor Hub — 8 Expert AI Advisors | AI Consulting Platform",
+      "description": "8 expert AIs in one platform. Culture, Decision, Health, Knowledge, Learning, Life, Meeting, Startup. 300K+ consultations. Choose advisor.",
+      "image": "/og-images/advisor-hub-en.jpg",
+      "type": "website",
+      "locale": "en_US"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Advisor Hub — 8 Expert AI Advisors | AI Consulting Platform",
+      "description": "8 expert AIs in one platform. Culture, Decision, Health, Knowledge, Learning, Life, Meeting, Startup. 300K+ consultations. Choose advisor.",
+      "image": "/og-images/advisor-hub-en.jpg"
+    },
+    "geo": {
+      "geo.region": "US",
+      "geo.placename": "California",
+      "geo.position": "37.7749,-122.4194",
+      "ICBM": "37.7749,-122.4194"
+    },
+    "canonical": "https://www.ailydian.com/ai-advisor-hub"
+  }
+}

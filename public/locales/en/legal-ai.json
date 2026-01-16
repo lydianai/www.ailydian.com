@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "LyDian Legal AI — Legal AI Advisor | AI Lawyer",
+    "description": "AI legal consultation. 1M+ court decision analysis, contract review, legislation screening. 100K+ consultations. Get legal advice.",
+    "keywords": "legal ai, ai lawyer, legal advisor ai, contract analysis, court decisions, lydian legal"
+  },
+  "seo": {
+    "og": {
+      "title": "LyDian Legal AI — Legal AI Advisor | AI Lawyer",
+      "description": "AI legal consultation. 1M+ court decision analysis, contract review, legislation screening. 100K+ consultations. Get legal advice.",
+      "image": "/og-images/legal-ai-en.jpg",
+      "type": "website",
+      "locale": "en_US"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "LyDian Legal AI — Legal AI Advisor | AI Lawyer",
+      "description": "AI legal consultation. 1M+ court decision analysis, contract review, legislation screening. 100K+ consultations. Get legal advice.",
+      "image": "/og-images/legal-ai-en.jpg"
+    },
+    "geo": {
+      "geo.region": "US",
+      "geo.placename": "California",
+      "geo.position": "37.7749,-122.4194",
+      "ICBM": "37.7749,-122.4194"
+    },
+    "canonical": "https://www.ailydian.com/legal-expert"
+  }
+}

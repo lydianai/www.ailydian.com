@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "AI Chat — 5 ИИ Моделей в Одном Интерфейсе | Мультимодельный Чат",
+    "description": "Единый интерфейс Claude, GPT-4, Gemini. Анализ текста, изображений, кода. 1М+ разговоров, поддержка 40+ языков.",
+    "keywords": "ии чат, чат искусственный интеллект, мультимодельный ии, claude чат, gpt-4 русский, ии ассистент"
+  },
+  "seo": {
+    "og": {
+      "title": "AI Chat — 5 ИИ Моделей в Одном Интерфейсе | Мультимодельный Чат",
+      "description": "Единый интерфейс Claude, GPT-4, Gemini. Анализ текста, изображений, кода. 1М+ разговоров, поддержка 40+ языков.",
+      "image": "/og-images/chat-ru.jpg",
+      "type": "website",
+      "locale": "ru_RU"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Chat — 5 ИИ Моделей в Одном Интерфейсе | Мультимодельный Чат",
+      "description": "Единый интерфейс Claude, GPT-4, Gemini. Анализ текста, изображений, кода. 1М+ разговоров, поддержка 40+ языков.",
+      "image": "/og-images/chat-ru.jpg"
+    },
+    "geo": {
+      "geo.region": "RU",
+      "geo.placename": "Moscow",
+      "geo.position": "55.7558,37.6173",
+      "ICBM": "55.7558,37.6173"
+    },
+    "canonical": "https://www.ailydian.com/chat"
+  }
+}

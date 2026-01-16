@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Advisor Hub — Merkezi Danışmanlık Platformu | LyDian AI</title>
+    <meta name="description" content="AI Advisor Hub ile tüm danışmanlık hizmetlerinizi tek platformdan yönetin.">
+    <link rel="icon" type="image/png" href="/lydian-favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --bg-dark: #0A0B0D; --accent: #00E0AE; --accent-2: #6E84FF; --text: #FFFFFF; --text-2: #B0B0B0; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-dark); color: var(--text); line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        header { padding: 2rem 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
+        .logo { font-size: 1.5rem; font-weight: 700; background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero { text-align: center; padding: 6rem 0; }
+        h1 { font-size: 3.5rem; font-weight: 800; margin-bottom: 1.5rem; background: linear-gradient(135deg, #FFF, var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .subtitle { font-size: 1.25rem; color: var(--text-2); max-width: 600px; margin: 0 auto 3rem; }
+        .cta-button { display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: white; text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 1.1rem; box-shadow: 0 8px 24px rgba(0,224,174,0.3); transition: all 0.3s; }
+        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(0,224,174,0.4); }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 4rem 0; }
+        .feature-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2rem; backdrop-filter: blur(10px); transition: all 0.3s; }
+        .feature-card:hover { border-color: var(--accent); transform: translateY(-4px); }
+        .feature-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+        .feature-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--accent); }
+        .feature-desc { color: var(--text-2); }
+        .back-link { display: inline-block; margin-top: 3rem; color: var(--accent); text-decoration: none; font-weight: 600; }
+        .back-link:hover { text-decoration: underline; }
+        @media (max-width: 768px) { h1 { font-size: 2.5rem; } .hero { padding: 4rem 0; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header><div class="logo">LyDian AI</div></header>
+        <section class="hero">
+            <h1>AI Advisor Hub</h1>
+            <p class="subtitle">Merkezi danışmanlık platformu ile finans, hukuk, sağlık ve daha fazla alanda profesyonel AI destekli danışmanlık alın.</p>
+            <a href="/chat.html" class="cta-button">Danışman ile Başla →</a>
+        </section>
+        <section class="features">
+            <div class="feature-card"><div class="feature-icon">💼</div><h3 class="feature-title">İş Danışmanlığı</h3><p class="feature-desc">Stratejik planlama, büyüme analizi ve iş geliştirme önerileri.</p></div>
+            <div class="feature-card"><div class="feature-icon">⚖️</div><h3 class="feature-title">Hukuki Danışmanlık</h3><p class="feature-desc">16 farklı hukuk dalında AI destekli danışmanlık hizmeti.</p></div>
+            <div class="feature-card"><div class="feature-icon">💰</div><h3 class="feature-title">Finans Danışmanlığı</h3><p class="feature-desc">Yatırım stratejileri, portföy yönetimi ve risk analizi.</p></div>
+            <div class="feature-card"><div class="feature-icon">🏥</div><h3 class="feature-title">Sağlık Danışmanlığı</h3><p class="feature-desc">20 uzmanlık dalında tıbbi bilgi ve sağlık önerileri.</p></div>
+            <div class="feature-card"><div class="feature-icon">🎓</div><h3 class="feature-title">Eğitim Danışmanlığı</h3><p class="feature-desc">Kariyer planlama, eğitim yol haritası ve kurs önerileri.</p></div>
+            <div class="feature-card"><div class="feature-icon">🌍</div><h3 class="feature-title">Seyahat Danışmanlığı</h3><p class="feature-desc">Akıllı tur planlama, konaklama ve ulaşım çözümleri.</p></div>
+        </section>
+        <div style="text-align: center;"><a href="/" class="back-link">← Ana Sayfaya Dön</a></div>
+    </div>
+</body>
+</html>

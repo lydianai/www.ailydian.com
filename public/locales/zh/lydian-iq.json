@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "LyDian IQ — 科学AI智力测试 | 在线IQ测试",
+    "description": "AI驱动的科学智力测试。多模型分析、详细报告。100万+用户，98%准确率。开始免费测试。",
+    "keywords": "智商测试, 在线智力测试, ai智商测试, 智力测量, 免费智商测试, lydian iq"
+  },
+  "seo": {
+    "og": {
+      "title": "LyDian IQ — 科学AI智力测试 | 在线IQ测试",
+      "description": "AI驱动的科学智力测试。多模型分析、详细报告。100万+用户，98%准确率。开始免费测试。",
+      "image": "/og-images/lydian-iq-zh.jpg",
+      "type": "website",
+      "locale": "zh_CN"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "LyDian IQ — 科学AI智力测试 | 在线IQ测试",
+      "description": "AI驱动的科学智力测试。多模型分析、详细报告。100万+用户，98%准确率。开始免费测试。",
+      "image": "/og-images/lydian-iq-zh.jpg"
+    },
+    "geo": {
+      "geo.region": "CN",
+      "geo.placename": "Beijing",
+      "geo.position": "39.9042,116.4074",
+      "ICBM": "39.9042,116.4074"
+    },
+    "canonical": "https://www.ailydian.com/lydian-iq"
+  }
+}

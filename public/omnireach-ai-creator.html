@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniReach AI Creator — Faceless Video İçerik Üretimi | LyDian AI</title>
+    <meta name="description" content="OmniReach AI Creator ile faceless video içerikleri otomatik üretin. Yapay zeka destekli video oluşturma platformu.">
+    <link rel="icon" type="image/png" href="/lydian-favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-dark: #0A0B0D;
+            --bg-card: #111214;
+            --accent: #00E0AE;
+            --accent-2: #6E84FF;
+            --text-primary: #FFFFFF;
+            --text-secondary: #B0B0B0;
+            --glass: rgba(255, 255, 255, 0.05);
+            --stroke: rgba(255, 255, 255, 0.08);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            padding: 2rem 0;
+            border-bottom: 1px solid var(--stroke);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent), var(--accent-2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 6rem 0;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #FFFFFF, var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 3rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: linear-gradient(135deg, var(--accent), var(--accent-2));
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(0, 224, 174, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(0, 224, 174, 0.4);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .feature-card {
+            background: var(--glass);
+            border: 1px solid var(--stroke);
+            border-radius: 16px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-4px);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--accent);
+        }
+
+        .feature-desc {
+            color: var(--text-secondary);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 3rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero {
+                padding: 4rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">LyDian AI</div>
+        </header>
+
+        <section class="hero">
+            <h1>OmniReach AI Creator</h1>
+            <p class="subtitle">
+                Faceless video içeriklerini yapay zeka ile otomatik üretin. Sesli anlatım, görsel ve montaj - hepsi bir arada.
+            </p>
+            <a href="/chat.html" class="cta-button">Şimdi Başlayın →</a>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🎬</div>
+                <h3 class="feature-title">Otomatik Video Üretimi</h3>
+                <p class="feature-desc">
+                    Metinden videoya dönüştürme ile dakikalar içinde profesyonel içerik oluşturun.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎙️</div>
+                <h3 class="feature-title">AI Seslendirme</h3>
+                <p class="feature-desc">
+                    20+ farklı dilde doğal seslendirme ile videolarınızı zenginleştirin.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">✨</div>
+                <h3 class="feature-title">Akıllı Montaj</h3>
+                <p class="feature-desc">
+                    Yapay zeka destekli otomatik montaj ile zamandan tasarruf edin.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3 class="feature-title">Görsel Kütüphane</h3>
+                <p class="feature-desc">
+                    Milyonlarca telif hakkı serbest görsel ve video klip erişimi.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3 class="feature-title">Hızlı Render</h3>
+                <p class="feature-desc">
+                    Bulut tabanlı render sistemi ile saniyeler içinde export edin.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3 class="feature-title">Analitik Dashboard</h3>
+                <p class="feature-desc">
+                    Video performansınızı takip edin ve optimize edin.
+                </p>
+            </div>
+        </section>
+
+        <div style="text-align: center;">
+            <a href="/" class="back-link">← Ana Sayfaya Dön</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "AI Chat — 5 AI Models in One Interface | Multi-Model Chat",
+    "description": "Claude, GPT-4, Gemini unified interface. Text, vision, code analysis. 1M+ conversations, 40+ language support. Start free chat.",
+    "keywords": "ai chat, artificial intelligence chat, multi model ai, claude chat, gpt-4 chat, ai assistant"
+  },
+  "seo": {
+    "og": {
+      "title": "AI Chat — 5 AI Models in One Interface | Multi-Model Chat",
+      "description": "Claude, GPT-4, Gemini unified interface. Text, vision, code analysis. 1M+ conversations, 40+ language support. Start free chat.",
+      "image": "/og-images/chat-en.jpg",
+      "type": "website",
+      "locale": "en_US"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Chat — 5 AI Models in One Interface | Multi-Model Chat",
+      "description": "Claude, GPT-4, Gemini unified interface. Text, vision, code analysis. 1M+ conversations, 40+ language support. Start free chat.",
+      "image": "/og-images/chat-en.jpg"
+    },
+    "geo": {
+      "geo.region": "US",
+      "geo.placename": "California",
+      "geo.position": "37.7749,-122.4194",
+      "ICBM": "37.7749,-122.4194"
+    },
+    "canonical": "https://www.ailydian.com/chat"
+  }
+}

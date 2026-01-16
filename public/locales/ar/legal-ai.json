@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "LyDian Legal AI — مستشار قانوني بالذكاء الاصطناعي | محامي AI",
+    "description": "استشارة قانونية بالذكاء الاصطناعي. تحليل +1 مليون قرار محكمة، مراجعة عقود، فحص تشريعات. +100 ألف استشارة.",
+    "keywords": "ذكاء اصطناعي قانوني, محامي ai, مستشار قانوني ai, تحليل العقود, قرارات المحكمة, lydian legal"
+  },
+  "seo": {
+    "og": {
+      "title": "LyDian Legal AI — مستشار قانوني بالذكاء الاصطناعي | محامي AI",
+      "description": "استشارة قانونية بالذكاء الاصطناعي. تحليل +1 مليون قرار محكمة، مراجعة عقود، فحص تشريعات. +100 ألف استشارة.",
+      "image": "/og-images/legal-ai-ar.jpg",
+      "type": "website",
+      "locale": "ar_SA"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "LyDian Legal AI — مستشار قانوني بالذكاء الاصطناعي | محامي AI",
+      "description": "استشارة قانونية بالذكاء الاصطناعي. تحليل +1 مليون قرار محكمة، مراجعة عقود، فحص تشريعات. +100 ألف استشارة.",
+      "image": "/og-images/legal-ai-ar.jpg"
+    },
+    "geo": {
+      "geo.region": "SA",
+      "geo.placename": "Riyadh",
+      "geo.position": "24.7136,46.6753",
+      "ICBM": "24.7136,46.6753"
+    },
+    "canonical": "https://www.ailydian.com/legal-expert"
+  }
+}

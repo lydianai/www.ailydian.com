@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "LyDian IQ — Scientific AI Intelligence Test | Online IQ",
+    "description": "AI-powered scientific intelligence test. Multi-model analysis, detailed reports. 1M+ users, 98% accuracy. Start free test.",
+    "keywords": "iq test, intelligence test online, ai iq test, intelligence measurement, free iq test, lydian iq"
+  },
+  "seo": {
+    "og": {
+      "title": "LyDian IQ — Scientific AI Intelligence Test | Online IQ",
+      "description": "AI-powered scientific intelligence test. Multi-model analysis, detailed reports. 1M+ users, 98% accuracy. Start free test.",
+      "image": "/og-images/lydian-iq-en.jpg",
+      "type": "website",
+      "locale": "en_US"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "LyDian IQ — Scientific AI Intelligence Test | Online IQ",
+      "description": "AI-powered scientific intelligence test. Multi-model analysis, detailed reports. 1M+ users, 98% accuracy. Start free test.",
+      "image": "/og-images/lydian-iq-en.jpg"
+    },
+    "geo": {
+      "geo.region": "US",
+      "geo.placename": "California",
+      "geo.position": "37.7749,-122.4194",
+      "ICBM": "37.7749,-122.4194"
+    },
+    "canonical": "https://www.ailydian.com/lydian-iq"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "AI Advisor Hub — 8 Uzman AI Danışman | Yapay Zeka Danışmanlık",
+    "description": "8 uzman yapay zeka tek platformda. Kültür, Karar, Sağlık, Bilgi, Öğrenme, Yaşam, Toplantı, Startup. 300K+ danışma. Danışman seç.",
+    "keywords": "ai danışman, uzman yapay zeka, yaşam koçu ai, startup danışmanı, karar matrisi, ai advisor hub"
+  },
+  "seo": {
+    "og": {
+      "title": "AI Advisor Hub — 8 Uzman AI Danışman | Yapay Zeka Danışmanlık",
+      "description": "8 uzman yapay zeka tek platformda. Kültür, Karar, Sağlık, Bilgi, Öğrenme, Yaşam, Toplantı, Startup. 300K+ danışma. Danışman seç.",
+      "image": "/og-images/advisor-hub-tr.jpg",
+      "type": "website",
+      "locale": "tr_TR"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Advisor Hub — 8 Uzman AI Danışman | Yapay Zeka Danışmanlık",
+      "description": "8 uzman yapay zeka tek platformda. Kültür, Karar, Sağlık, Bilgi, Öğrenme, Yaşam, Toplantı, Startup. 300K+ danışma. Danışman seç.",
+      "image": "/og-images/advisor-hub-tr.jpg"
+    },
+    "geo": {
+      "geo.region": "TR",
+      "geo.placename": "İstanbul",
+      "geo.position": "41.0082,28.9784",
+      "ICBM": "41.0082,28.9784"
+    },
+    "canonical": "https://www.ailydian.com/ai-advisor-hub"
+  }
+}

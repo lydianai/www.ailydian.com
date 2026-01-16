@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "LyDian AI — Preisgekrönte KI-Plattform | KI-Ökosystem",
+    "description": "Medizinische KI, Rechts-KI, IQ-Test & 8 Experten-Berater. Multi-Modell-KI in 40+ Sprachen. Jetzt kostenlos testen.",
+    "keywords": "ki plattform, künstliche intelligenz, medizinische ki, rechts ki, iq test ki, mehrsprachige ki, lydian ai"
+  },
+  "seo": {
+    "og": {
+      "title": "LyDian AI — Preisgekrönte KI-Plattform | KI-Ökosystem",
+      "description": "Medizinische KI, Rechts-KI, IQ-Test & 8 Experten-Berater. Multi-Modell-KI in 40+ Sprachen. Jetzt kostenlos testen.",
+      "image": "/og-images/homepage-de.jpg",
+      "type": "website",
+      "locale": "de_DE"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "LyDian AI — Preisgekrönte KI-Plattform | KI-Ökosystem",
+      "description": "Medizinische KI, Rechts-KI, IQ-Test & 8 Experten-Berater. Multi-Modell-KI in 40+ Sprachen. Jetzt kostenlos testen.",
+      "image": "/og-images/homepage-de.jpg"
+    },
+    "geo": {
+      "geo.region": "DE",
+      "geo.placename": "Berlin",
+      "geo.position": "52.5200,13.4050",
+      "ICBM": "52.5200,13.4050"
+    },
+    "canonical": "https://www.ailydian.com/"
+  }
+}

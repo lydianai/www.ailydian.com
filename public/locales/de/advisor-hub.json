@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "AI Advisor Hub — 8 Experten-KI-Berater | KI-Beratungsplattform",
+    "description": "8 Experten-KIs auf einer Plattform. Kultur, Entscheidung, Gesundheit, Wissen, Lernen, Leben, Meeting, Startup. 300K+ Beratungen.",
+    "keywords": "ki berater, experten ki, lebensberater ki, startup berater, entscheidungsmatrix, ai advisor hub"
+  },
+  "seo": {
+    "og": {
+      "title": "AI Advisor Hub — 8 Experten-KI-Berater | KI-Beratungsplattform",
+      "description": "8 Experten-KIs auf einer Plattform. Kultur, Entscheidung, Gesundheit, Wissen, Lernen, Leben, Meeting, Startup. 300K+ Beratungen.",
+      "image": "/og-images/advisor-hub-de.jpg",
+      "type": "website",
+      "locale": "de_DE"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Advisor Hub — 8 Experten-KI-Berater | KI-Beratungsplattform",
+      "description": "8 Experten-KIs auf einer Plattform. Kultur, Entscheidung, Gesundheit, Wissen, Lernen, Leben, Meeting, Startup. 300K+ Beratungen.",
+      "image": "/og-images/advisor-hub-de.jpg"
+    },
+    "geo": {
+      "geo.region": "DE",
+      "geo.placename": "Berlin",
+      "geo.position": "52.5200,13.4050",
+      "ICBM": "52.5200,13.4050"
+    },
+    "canonical": "https://www.ailydian.com/ai-advisor-hub"
+  }
+}

@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayo Clinic Seviyesinde Uzmanlık Bakımı - Ailydian Medical Expert v3.0</title>
+
+    <!-- Premium Styles -->
+    <link rel="stylesheet" href="/css/medical-expert.css">
+    <link rel="stylesheet" href="/css/medical-expert-premium.css">
+
+    <style>
+        :root {
+            --mayo-primary: #0051a5;
+            --mayo-secondary: #005eb8;
+            --mayo-accent: #00a3e0;
+            --mayo-success: #00c389;
+            --mayo-warning: #ff9800;
+            --mayo-danger: #e53935;
+            --mayo-critical: #c62828;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0a0e27 100%);
+            color: #e0e6ed;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .mayo-header {
+            background: rgba(0, 81, 165, 0.1);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 163, 224, 0.2);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .mayo-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--mayo-accent), var(--mayo-primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0 0 0.5rem 0;
+        }
+
+        .mayo-header .subtitle {
+            color: rgba(224, 230, 237, 0.7);
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .specialties-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .specialty-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 163, 224, 0.2);
+            border-radius: 16px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .specialty-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--mayo-accent), var(--mayo-primary));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .specialty-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 163, 224, 0.3);
+            border-color: var(--mayo-accent);
+        }
+
+        .specialty-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .specialty-card.critical {
+            border-color: var(--mayo-critical);
+        }
+
+        .specialty-card.emergency {
+            border-color: var(--mayo-danger);
+        }
+
+        .specialty-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .specialty-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            background: linear-gradient(135deg, var(--mayo-accent), var(--mayo-primary));
+        }
+
+        .specialty-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .specialty-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 0.5rem;
+        }
+
+        .badge-critical {
+            background: linear-gradient(135deg, #c62828, #e53935);
+        }
+
+        .badge-emergency {
+            background: linear-gradient(135deg, #e53935, #ff5252);
+        }
+
+        .badge-high {
+            background: linear-gradient(135deg, #ff9800, #ffa726);
+        }
+
+        .badge-advanced {
+            background: linear-gradient(135deg, #00a3e0, #0051a5);
+        }
+
+        .specialty-description {
+            color: rgba(224, 230, 237, 0.8);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 1rem 0;
+        }
+
+        .specialty-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .feature-tag {
+            padding: 0.375rem 0.75rem;
+            background: rgba(0, 163, 224, 0.2);
+            border: 1px solid rgba(0, 163, 224, 0.3);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: var(--mayo-accent);
+        }
+
+        .quantum-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: linear-gradient(135deg, rgba(156, 39, 176, 0.2), rgba(103, 58, 183, 0.2));
+            border: 1px solid rgba(156, 39, 176, 0.5);
+            border-radius: 8px;
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            color: #ce93d8;
+        }
+
+        .diagnostic-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .diagnostic-modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: rgba(26, 31, 58, 0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(0, 163, 224, 0.3);
+            border-radius: 20px;
+            padding: 2rem;
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(0, 163, 224, 0.2);
+        }
+
+        .modal-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--mayo-accent), var(--mayo-primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 2rem;
+            cursor: pointer;
+            padding: 0;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .close-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: rotate(90deg);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--mayo-accent);
+        }
+
+        .form-input,
+        .form-textarea,
+        .form-select {
+            width: 100%;
+            padding: 0.875rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 163, 224, 0.3);
+            border-radius: 8px;
+            color: #fff;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .form-input:focus,
+        .form-textarea:focus,
+        .form-select:focus {
+            outline: none;
+            border-color: var(--mayo-accent);
+            box-shadow: 0 0 0 3px rgba(0, 163, 224, 0.1);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--mayo-accent), var(--mayo-primary));
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 163, 224, 0.4);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading-spinner {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .loading-spinner.active {
+            display: block;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(0, 163, 224, 0.2);
+            border-top-color: var(--mayo-accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .results-container {
+            display: none;
+            margin-top: 2rem;
+        }
+
+        .results-container.active {
+            display: block;
+        }
+
+        .result-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 163, 224, 0.2);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .result-header {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--mayo-accent);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .result-content {
+            color: rgba(224, 230, 237, 0.9);
+            line-height: 1.8;
+        }
+
+        .confidence-meter {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: rgba(0, 195, 137, 0.1);
+            border: 1px solid rgba(0, 195, 137, 0.3);
+            border-radius: 8px;
+        }
+
+        .confidence-bar {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--mayo-success), var(--mayo-accent));
+            transition: width 1s ease;
+        }
+
+        .quantum-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: linear-gradient(135deg, rgba(156, 39, 176, 0.2), rgba(103, 58, 183, 0.2));
+            border: 1px solid rgba(156, 39, 176, 0.5);
+            border-radius: 20px;
+            font-size: 0.875rem;
+            color: #ce93d8;
+            animation: quantum-pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes quantum-pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        .risk-badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        .risk-low {
+            background: rgba(0, 195, 137, 0.2);
+            color: var(--mayo-success);
+            border: 1px solid rgba(0, 195, 137, 0.5);
+        }
+
+        .risk-moderate {
+            background: rgba(255, 152, 0, 0.2);
+            color: var(--mayo-warning);
+            border: 1px solid rgba(255, 152, 0, 0.5);
+        }
+
+        .risk-high {
+            background: rgba(229, 57, 53, 0.2);
+            color: var(--mayo-danger);
+            border: 1px solid rgba(229, 57, 53, 0.5);
+        }
+
+        .risk-critical {
+            background: rgba(198, 40, 40, 0.2);
+            color: var(--mayo-critical);
+            border: 1px solid rgba(198, 40, 40, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .specialties-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .mayo-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .modal-content {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mayo-header">
+        <h1>🏥 Mayo Clinic Seviyesinde Uzmanlık Bakımı</h1>
+        <p class="subtitle">Quantum-Enhanced AI ile Dünyanın En Karmaşık Tıbbi Sorunlarına Çözüm</p>
+        <div style="margin-top: 1rem;">
+            <a href="/medical-expert.html" style="color: var(--mayo-accent); text-decoration: none;">
+                ← Ana Medical Expert Sistemine Dön
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="specialties-container" class="specialties-grid">
+            <!-- Specialties will be loaded here dynamically -->
+        </div>
+    </div>
+
+    <!-- Diagnostic Modal -->
+    <div id="diagnostic-modal" class="diagnostic-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modal-title">Quantum Diagnostic Analiz</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+
+            <div id="diagnostic-form">
+                <div class="form-group">
+                    <label class="form-label">Hasta ID / Adı</label>
+                    <input type="text" id="patient-id" class="form-input" placeholder="Örn: P-12345 veya Ahmet Y.">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Yaş</label>
+                    <input type="number" id="patient-age" class="form-input" placeholder="Örn: 45">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Cinsiyet</label>
+                    <select id="patient-gender" class="form-select">
+                        <option value="">Seçiniz</option>
+                        <option value="male">Erkek</option>
+                        <option value="female">Kadın</option>
+                        <option value="other">Diğer</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Semptomlar</label>
+                    <textarea id="symptoms" class="form-textarea" placeholder="Hastanın şikayetlerini ve semptomlarını detaylı bir şekilde açıklayın..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Tıbbi Geçmiş</label>
+                    <textarea id="medical-history" class="form-textarea" placeholder="Geçmiş hastalıklar, ameliyatlar, kronik durumlar, kullanılan ilaçlar..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Klinik Bulgular</label>
+                    <textarea id="clinical-findings" class="form-textarea" placeholder="Laboratuvar sonuçları, görüntüleme bulguları, fizik muayene bulguları..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Quantum Güç Seviyesi</label>
+                    <select id="quantum-device" class="form-select">
+                        <option value="cpu">CPU Simülasyonu (Ücretsiz - Hızlı)</option>
+                        <option value="gpu">GPU Hızlandırmalı ($0.05 - Orta)</option>
+                        <option value="mps_gpu">MPS GPU ($0.10 - İyi)</option>
+                        <option value="ibm_heron" selected>IBM Heron 50+ Qubit ($5 - Mükemmel)</option>
+                        <option value="quantinuum_h2">Quantinuum H2 100+ Qubit ($25 - En İyi)</option>
+                    </select>
+                </div>
+
+                <button class="btn-primary" onclick="performDiagnosis()">
+                    🔬 Quantum Diagnostic Analizi Başlat
+                </button>
+            </div>
+
+            <div id="loading-spinner" class="loading-spinner">
+                <div class="spinner"></div>
+                <p>Quantum analizi gerçekleştiriliyor...</p>
+                <p style="color: rgba(224, 230, 237, 0.6); font-size: 0.9rem;">
+                    50+ qubit ile moleküler simülasyonlar ve klinik veri analizi yapılıyor
+                </p>
+            </div>
+
+            <div id="results-container" class="results-container">
+                <!-- Results will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentSpecialty = null;
+
+        // Load specialties on page load
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadSpecialties();
+        });
+
+        async function loadSpecialties() {
+            try {
+                const response = await fetch('/api/specialty-care/list');
+                const data = await response.json();
+
+                if (data.success && data.specialties) {
+                    renderSpecialties(data.specialties);
+                }
+            } catch (error) {
+                console.error('Specialties yüklenemedi:', error);
+                // Fallback to hardcoded specialties
+                renderSpecialties(getHardcodedSpecialties());
+            }
+        }
+
+        function renderSpecialties(specialties) {
+            const container = document.getElementById('specialties-container');
+            container.innerHTML = specialties.map(specialty => {
+                const criticalityClass = specialty.criticalityLevel.toLowerCase();
+                const icon = getSpecialtyIcon(specialty.id);
+
+                return `
+                    <div class="specialty-card ${criticalityClass}" onclick="openDiagnostic('${specialty.id}')">
+                        <div class="specialty-header">
+                            <div class="specialty-icon">${icon}</div>
+                            <div style="flex: 1;">
+                                <div class="specialty-name">${specialty.name.tr}</div>
+                                <div class="specialty-badge badge-${criticalityClass}">
+                                    ${specialty.criticalityLevel}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="specialty-description">
+                            ${specialty.description.tr}
+                        </div>
+
+                        <div class="specialty-features">
+                            ${specialty.aiModels.slice(0, 2).map(model =>
+                                `<span class="feature-tag">🤖 ${model}</span>`
+                            ).join('')}
+                        </div>
+
+                        <div class="quantum-badge">
+                            ⚛️ Quantum: ${specialty.quantumFeatures.length} özellik
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function getSpecialtyIcon(id) {
+            const icons = {
+                'bone-marrow-transplant': '🦴',
+                'brain-aneurysm': '🧠',
+                'brain-tumor': '🧠',
+                'breast-cancer': '🎗️',
+                'colon-cancer': '🎗️',
+                'congenital-heart': '❤️',
+                'glioma': '🧠',
+                'heart-arrhythmia': '💓',
+                'heart-valve': '❤️',
+                'living-donor': '🫀',
+                'lung-transplant': '🫁',
+                'sarcoma': '🎗️',
+                'testicular-cancer': '🎗️',
+                'genomic-medicine': '🧬'
+            };
+            return icons[id] || '🏥';
+        }
+
+        function openDiagnostic(specialtyId) {
+            currentSpecialty = specialtyId;
+            const modal = document.getElementById('diagnostic-modal');
+            const title = document.getElementById('modal-title');
+
+            // Get specialty name
+            fetch(`/api/specialty-care/list`)
+                .then(res => res.json())
+                .then(data => {
+                    const specialty = data.specialties.find(s => s.id === specialtyId);
+                    if (specialty) {
+                        title.textContent = `${specialty.name.tr} - Quantum Diagnostic Analiz`;
+                    }
+                });
+
+            modal.classList.add('active');
+
+            // Reset form
+            document.getElementById('diagnostic-form').style.display = 'block';
+            document.getElementById('loading-spinner').classList.remove('active');
+            document.getElementById('results-container').classList.remove('active');
+        }
+
+        function closeModal() {
+            document.getElementById('diagnostic-modal').classList.remove('active');
+            currentSpecialty = null;
+        }
+
+        async function performDiagnosis() {
+            // Get form data
+            const patientData = {
+                id: document.getElementById('patient-id').value,
+                age: parseInt(document.getElementById('patient-age').value),
+                gender: document.getElementById('patient-gender').value
+            };
+
+            const symptoms = document.getElementById('symptoms').value;
+            const medicalHistory = document.getElementById('medical-history').value;
+            const clinicalFindings = document.getElementById('clinical-findings').value;
+            const quantumDevice = document.getElementById('quantum-device').value;
+
+            // Validate
+            if (!patientData.id || !patientData.age || !symptoms) {
+                alert('Lütfen en azından Hasta ID, Yaş ve Semptomlar alanlarını doldurun.');
+                return;
+            }
+
+            // Show loading
+            document.getElementById('diagnostic-form').style.display = 'none';
+            document.getElementById('loading-spinner').classList.add('active');
+            document.getElementById('results-container').classList.remove('active');
+
+            try {
+                const response = await fetch('/api/quantum-diagnosis/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        specialty: currentSpecialty,
+                        patientData,
+                        symptoms,
+                        medicalHistory,
+                        clinicalFindings,
+                        quantumDevice
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    displayResults(data.diagnosis);
+                } else {
+                    throw new Error(data.error || 'Analiz başarısız oldu');
+                }
+            } catch (error) {
+                console.error('Diagnosis error:', error);
+                alert('Quantum analiz sırasında bir hata oluştu: ' + error.message);
+                document.getElementById('diagnostic-form').style.display = 'block';
+            } finally {
+                document.getElementById('loading-spinner').classList.remove('active');
+            }
+        }
+
+        function displayResults(diagnosis) {
+            const container = document.getElementById('results-container');
+
+            const riskClass = diagnosis.riskAssessment.overallRisk.toLowerCase().replace(' ', '-');
+
+            container.innerHTML = `
+                <div class="result-card">
+                    <div class="result-header">
+                        🎯 Teşhis
+                        ${diagnosis.quantumEnhanced ? '<span class="quantum-indicator">⚛️ Quantum-Enhanced</span>' : ''}
+                    </div>
+                    <div class="result-content">
+                        <strong>${diagnosis.diagnosis}</strong>
+                    </div>
+
+                    <div class="confidence-meter">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span>Güven Seviyesi</span>
+                            <span style="color: var(--mayo-success); font-weight: 600;">${diagnosis.confidence}%</span>
+                        </div>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: ${diagnosis.confidence}%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-header">
+                        ⚛️ Quantum Analiz Detayları
+                    </div>
+                    <div class="result-content">
+                        <p><strong>Cihaz:</strong> ${diagnosis.quantumAnalysis.device}</p>
+                        <p><strong>Qubit Sayısı:</strong> ${diagnosis.quantumAnalysis.qubits}</p>
+                        <p><strong>İşlem Süresi:</strong> ${diagnosis.quantumAnalysis.executionTime}s</p>
+                        <p><strong>Fidelity:</strong> ${(diagnosis.quantumAnalysis.fidelity * 100).toFixed(2)}%</p>
+
+                        ${diagnosis.quantumAnalysis.molecularSimulation ? `
+                            <div style="margin-top: 1rem; padding: 1rem; background: rgba(156, 39, 176, 0.1); border-radius: 8px;">
+                                <p><strong>🧬 Moleküler Simülasyon:</strong></p>
+                                <p>Molekül: ${diagnosis.quantumAnalysis.molecularSimulation.molecule}</p>
+                                <p>Enerji: ${diagnosis.quantumAnalysis.molecularSimulation.groundStateEnergy.toFixed(6)} Hartree</p>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-header">
+                        ⚠️ Risk Değerlendirmesi
+                    </div>
+                    <div class="result-content">
+                        <div style="margin-bottom: 1rem;">
+                            <strong>Genel Risk Seviyesi:</strong>
+                            <span class="risk-badge risk-${riskClass}">${diagnosis.riskAssessment.overallRisk}</span>
+                        </div>
+
+                        ${Object.entries(diagnosis.riskAssessment.factors).map(([factor, value]) => `
+                            <p><strong>${factor}:</strong> ${typeof value === 'object' ? JSON.stringify(value) : value}</p>
+                        `).join('')}
+
+                        ${diagnosis.riskAssessment.clinicalScores ? `
+                            <div style="margin-top: 1rem; padding: 1rem; background: rgba(255, 152, 0, 0.1); border-radius: 8px;">
+                                <p><strong>📊 Klinik Skorlar:</strong></p>
+                                ${Object.entries(diagnosis.riskAssessment.clinicalScores).map(([score, value]) => `
+                                    <p>${score}: ${typeof value === 'object' ? JSON.stringify(value) : value}</p>
+                                `).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-header">
+                        💊 Önerilen Tedavi Planı
+                    </div>
+                    <div class="result-content">
+                        ${diagnosis.treatmentPlan.primaryTreatment ? `
+                            <p><strong>Birincil Tedavi:</strong> ${diagnosis.treatmentPlan.primaryTreatment}</p>
+                        ` : ''}
+
+                        ${diagnosis.treatmentPlan.medications && diagnosis.treatmentPlan.medications.length > 0 ? `
+                            <div style="margin-top: 1rem;">
+                                <strong>İlaçlar:</strong>
+                                <ul style="margin: 0.5rem 0; padding-left: 1.5rem;">
+                                    ${diagnosis.treatmentPlan.medications.map(med => `<li>${med}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+
+                        ${diagnosis.treatmentPlan.procedures && diagnosis.treatmentPlan.procedures.length > 0 ? `
+                            <div style="margin-top: 1rem;">
+                                <strong>Prosedürler:</strong>
+                                <ul style="margin: 0.5rem 0; padding-left: 1.5rem;">
+                                    ${diagnosis.treatmentPlan.procedures.map(proc => `<li>${proc}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+
+                        ${diagnosis.treatmentPlan.lifestyle && diagnosis.treatmentPlan.lifestyle.length > 0 ? `
+                            <div style="margin-top: 1rem;">
+                                <strong>Yaşam Tarzı Önerileri:</strong>
+                                <ul style="margin: 0.5rem 0; padding-left: 1.5rem;">
+                                    ${diagnosis.treatmentPlan.lifestyle.map(item => `<li>${item}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+
+                        ${diagnosis.treatmentPlan.followUp ? `
+                            <p style="margin-top: 1rem;"><strong>Takip:</strong> ${diagnosis.treatmentPlan.followUp}</p>
+                        ` : ''}
+
+                        ${diagnosis.treatmentPlan.urgency ? `
+                            <div style="margin-top: 1rem; padding: 1rem; background: rgba(229, 57, 53, 0.1); border: 1px solid rgba(229, 57, 53, 0.3); border-radius: 8px;">
+                                <strong>⚡ Aciliyet:</strong> ${diagnosis.treatmentPlan.urgency}
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem; padding: 1rem; background: rgba(255, 152, 0, 0.1); border: 1px solid rgba(255, 152, 0, 0.3); border-radius: 8px; font-size: 0.9rem; color: rgba(224, 230, 237, 0.8);">
+                    <strong>⚠️ Önemli Uyarı:</strong> Bu analiz bir AI ve quantum computing sistemi tarafından oluşturulmuştur.
+                    Kesin teşhis ve tedavi kararları mutlaka uzman bir hekim tarafından verilmelidir.
+                </div>
+
+                <button class="btn-primary" onclick="resetForm()">
+                    🔄 Yeni Analiz Yap
+                </button>
+            `;
+
+            container.classList.add('active');
+        }
+
+        function resetForm() {
+            document.getElementById('diagnostic-form').style.display = 'block';
+            document.getElementById('results-container').classList.remove('active');
+
+            // Clear form
+            document.getElementById('patient-id').value = '';
+            document.getElementById('patient-age').value = '';
+            document.getElementById('patient-gender').value = '';
+            document.getElementById('symptoms').value = '';
+            document.getElementById('medical-history').value = '';
+            document.getElementById('clinical-findings').value = '';
+        }
+
+        function getHardcodedSpecialties() {
+            return [
+                {
+                    id: 'bone-marrow-transplant',
+                    name: { tr: 'Kemik İliği Nakli' },
+                    description: { tr: 'Lösemi, lenfoma ve kan hastalıkları için quantum-enhanced kemik iliği nakli' },
+                    criticalityLevel: 'CRITICAL',
+                    aiModels: ['GPT-4o', 'Claude 3.5 Sonnet'],
+                    quantumFeatures: ['donor-matching', 'rejection-prediction']
+                },
+                {
+                    id: 'brain-aneurysm',
+                    name: { tr: 'Beyin Anevrizması' },
+                    description: { tr: 'Beyin anevrizması teşhisi ve risk değerlendirmesi' },
+                    criticalityLevel: 'EMERGENCY',
+                    aiModels: ['GPT-4o', 'Llama 3.3'],
+                    quantumFeatures: ['rupture-prediction', 'surgical-planning']
+                },
+                {
+                    id: 'breast-cancer',
+                    name: { tr: 'Meme Kanseri' },
+                    description: { tr: 'Erken teşhis, genetik analiz ve kişiselleştirilmiş tedavi planlaması' },
+                    criticalityLevel: 'CRITICAL',
+                    aiModels: ['GPT-4o', 'Claude 3.5'],
+                    quantumFeatures: ['genetic-analysis', 'treatment-optimization']
+                },
+                {
+                    id: 'heart-arrhythmia',
+                    name: { tr: 'Kalp Aritmisi' },
+                    description: { tr: 'Atriyal fibrilasyon ve diğer aritmi türleri için risk analizi' },
+                    criticalityLevel: 'HIGH',
+                    aiModels: ['GPT-4o', 'Gemini'],
+                    quantumFeatures: ['rhythm-analysis', 'stroke-prediction']
+                }
+            ];
+        }
+
+        // Close modal on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

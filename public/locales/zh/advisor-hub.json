@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "AI Advisor Hub — 8位专家AI顾问 | AI咨询平台",
+    "description": "8位专家AI一个平台。文化、决策、健康、知识、学习、生活、会议、创业。30万+次咨询。选择顾问。",
+    "keywords": "ai顾问, 专家ai, 生活教练ai, 创业顾问, 决策矩阵, ai advisor hub"
+  },
+  "seo": {
+    "og": {
+      "title": "AI Advisor Hub — 8位专家AI顾问 | AI咨询平台",
+      "description": "8位专家AI一个平台。文化、决策、健康、知识、学习、生活、会议、创业。30万+次咨询。选择顾问。",
+      "image": "/og-images/advisor-hub-zh.jpg",
+      "type": "website",
+      "locale": "zh_CN"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Advisor Hub — 8位专家AI顾问 | AI咨询平台",
+      "description": "8位专家AI一个平台。文化、决策、健康、知识、学习、生活、会议、创业。30万+次咨询。选择顾问。",
+      "image": "/og-images/advisor-hub-zh.jpg"
+    },
+    "geo": {
+      "geo.region": "CN",
+      "geo.placename": "Beijing",
+      "geo.position": "39.9042,116.4074",
+      "ICBM": "39.9042,116.4074"
+    },
+    "canonical": "https://www.ailydian.com/ai-advisor-hub"
+  }
+}

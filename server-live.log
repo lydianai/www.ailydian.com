@@ -1,0 +1,238 @@
+[dotenv@17.2.3] injecting env (44) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+⚠️ Inline script desteği aktif (ALLOW_LEGACY_INLINE !== "false").
+
+🔒 Initializing HTTPS Security...
+   Environment: DEVELOPMENT
+   HTTPS Redirect: DISABLED
+⚠️  HSTS disabled (not in production mode)
+✅ HTTPS security initialized
+
+
+🔒 Initializing Security Middleware...
+   Environment: DEVELOPMENT
+🛡️ Helmet security headers active
+🛡️ CSRF protection active for auth and settings routes
+✅ CSRF protection enabled
+🚨 CRITICAL: JWT_SECRET cannot contain default/weak values!
+✅ Security middleware initialized
+
+
+🚦 Initializing Rate Limiting...
+   Storage: Memory (single-instance)
+⚠️  Rate limiting DISABLED (development mode)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🛡️  STRICT-OMEGA SECURITY INITIALIZATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔒 Initializing security middleware...
+🔒 Validating security configuration...
+❌ Security configuration validation failed: JWT_SECRET is too weak (contains common words)
+❌ Security configuration validation failed: JWT_SECRET is too weak (contains common words)
+✅ CORS configured with origin whitelist
+✅ Security headers applied
+✅ Environment exposure prevention enabled
+✅ Input validation enabled
+✅ General API rate limiting applied
+✅ CSRF token injection enabled
+✅ Security middleware initialization complete
+✅ Security health check endpoint added
+✅ Security error handler applied
+
+✅ STRICT-OMEGA Security fully initialized
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔗 Initialized 5 AI providers
+🧠 FIRILDAK AI Engine Initialized - Real-time Multi-Provider System Active
+🚦 Concurrent Request Manager Active - Max 3 concurrent AI requests
+🔍 Initializing API Health Monitor...
+🔄 Health checks started
+🔄 WebSocket checks started
+✅ API Health Monitor initialized
+🔍 API Health Monitor initialized successfully
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+⚠️ Azure Health Data Services FHIR endpoint not configured
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+⚠️ Azure Health Data Services DICOM endpoint not configured
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+🏢 Initialized 3 default tenants
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+📚 Documentation Generator System initialized
+🏛️ Süper AI Hukuk Uzmanı Modeli Aktif!
+🏥 Süper AI Tıp Uzmanı Modeli Aktif!
+🧭 Süper AI Rehber & Danışman Modeli Aktif!
+🌟 Ultimate Bilgi Bankası Sistemi Aktif!
+🔵 Microsoft Azure Ultimate Platform Aktif!
+🧠 DeepSeek R1 Reasoning Engine Aktif!
+🔧 Azure SDK Unified Integration Aktif!
+🔧 Süper AI Kod Geliştirici Uzmanı Aktif!
+🛡️ Süper AI Siber Güvenlik Uzmanı Aktif!
+🎭 Unified Expert Orchestrator Aktif!
+🎭 UNIFIED EXPERT ORCHESTRATOR BAŞLATILIYOR...
+🏛️ SÜPER AI HUKUK UZMANI BAŞLATILIYOR...
+✅ Hukuk Uzmanı Hazır - 16 Hukuk Dalı Aktif
+🏥 SÜPER AI TIP UZMANI BAŞLATILIYOR...
+✅ Tıp Uzmanı Hazır - 20 Uzmanlık Dalı Aktif
+🧭 SÜPER AI REHBER VE DANIŞMAN BAŞLATILIYOR...
+✅ Rehber & Danışman Hazır - 20 Uzmanlık Alanı Aktif
+🌟 ULTIMATE BİLGİ BANKASI BAŞLATILIYOR...
+✅ Ultimate Bilgi Bankası Hazır - 67 Alan Aktif
+🔵 MICROSOFT AZURE ULTIMATE PLATFORM BAŞLATILIYOR...
+📦 Azure SDKs Yüklendi: 14 paket
+✅ Azure Ultimate Hazır - 14 AI Servisi Aktif
+🧠 DEEPSEEK R1 REASONING ENGINE BAŞLATILIYOR...
+✅ DeepSeek R1 Hazır - 5 Ana Yetenek Aktif
+🔧 AZURE SDK UNIFIED INTEGRATION BAŞLATILIYOR...
+✅ Azure SDK Unified Hazır - 23 Node.js + 20 C# Paketi
+🔧 SÜPER AI KOD GELİŞTİRİCİ UZMAN SİSTEMİ BAŞLATILIYOR...
+✅ Kod Geliştirici Uzmanı Hazır - 6 Ana Kategori Aktif
+🛡️ SÜPER AI SİBER GÜVENLİK UZMAN SİSTEMİ BAŞLATILIYOR...
+✅ Siber Güvenlik Uzmanı Hazır - 5 Ana Domain Aktif
+🏥 Azure Health & Radiology Expert başlatılıyor...
+🔍 4 Azure Health servisi doğrulanıyor...
+💊 Pharmaceutical Expert başlatılıyor...
+📚 Pharmaceutical databases yükleniyor...
+✅ Pharmaceutical databases yüklendi
+📈 Marketing Expert başlatılıyor...
+📚 Marketing databases yükleniyor...
+✅ Marketing databases yüklendi
+📚 12 Expert Sistemi Yüklendi
+💻 Z.AI Developer API Aktif!
+🌍 Azure+Google+Z.AI Translation System başlatılıyor...
+🔍 Translation providers doğrulanıyor...
+🔍 Global SEO + Backlink System başlatılıyor...
+🛠️ SEO tools doğrulanıyor...
+⚠️ Ahrefs API anahtarı yapılandırılacak
+⚠️ SEMrush API anahtarı yapılandırılacak
+⚠️ Moz API anahtarı yapılandırılacak
+⚠️ Screaming Frog API anahtarı yapılandırılacak
+⚠️ GTmetrix API anahtarı yapılandırılacak
+🤖 System Scanner Bot başlatılıyor...
+📁 Sistem yolları doğrulanıyor...
+💻 Z.AI DEVELOPER API BAŞLATILIYOR...
+✅ Z.AI Developer API Hazır - Coding Capabilities Aktif
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+⚠️ @azure/cognitiveservices-computervision not installed
+❌ Computer Vision initialization failed: CognitiveServicesCredentials is not a constructor
+✅ Azure Document Intelligence initialized
+✅ Azure Video Indexer configured
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+⚠️ Azure OpenAI SDK not installed - using DEMO mode for imaging analysis
+🧬 OrphaNet API Service initialized
+   Endpoint: https://api.orphadata.com/v1
+   Language: en
+   Cache: 24h expiration
+⚠️ Azure OpenAI SDK not installed - using DEMO mode for rare disease assistant
+⚠️ Azure OpenAI SDK not installed - using DEMO mode for mental health triage
+⚠️ Azure OpenAI initialization failed: AzureOpenAI is not a constructor
+🚀 AILYDIAN ULTRA PRO SERVER BAŞLATILDI!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ Server Status: ACTIVE
+🌐 Local URL: http://localhost:3500
+🌍 Network URL: http://127.0.0.1:3500
+🔗 WebSocket URL: ws://localhost:3500
+🤖 AI Models: 23 models loaded
+📂 Categories: 15 categories
+🏢 Providers: 13 providers
+📊 Memory Usage: 74 MB
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 Initializing Token Governor System...
+[RedisAdapter] REDIS_URL not configured, using in-memory fallback
+✅ healthBot servisi aktif
+🔍 Regulatory sources doğrulanıyor...
+✅ FDA regulatory guidelines aktif
+✅ EMA regulatory guidelines aktif
+✅ PMDA regulatory guidelines aktif
+✅ NMPA regulatory guidelines aktif
+🔍 Marketing platforms doğrulanıyor...
+✅ Google Ads API integration ready
+✅ Facebook Ads API integration ready
+✅ LinkedIn Ads API integration ready
+✅ TikTok Ads API integration ready
+✅ Unified Expert Orchestrator Hazır - 12 Expert Sistemi Aktif
+🔍 Arama motoru entegrasyonları kuruluyor...
+📊 Google Search Console entegrasyonu...
+✅ fhirApi servisi aktif
+📊 Market intelligence sistemi kuruluyor...
+✅ Market intelligence hazır
+📊 Performance tracking kuruluyor...
+✅ Performance tracking hazır
+✅ medicalImaging servisi aktif
+✅ Pharmaceutical Expert hazır!
+📊 Accuracy Rate: 99.6%
+🌍 Global Market Coverage: 4 major markets
+🏥 Therapeutic Areas: 5 specializations
+✅ Marketing Expert hazır!
+📊 Accuracy Rate: 99.5%
+🎯 Digital Channels: 5 categories
+🛠️ MarTech Tools: 4 categories
+⚠️ Google Search entegrasyon hatası: this.setupGoogleAnalytics is not a function
+[TokenBucket] Initialized claude-sonnet-4-5 with 300000 tokens
+[TokenBucket] Auto-refill started (every 60000ms)
+✅ textAnalytics servisi aktif
+⚠️ Microsoft Bing entegrasyon hatası: this.setupBingWebmasterTools is not a function
+❌ websocket: Unhealthy - Unsupported protocol ws: (1225ms)
+🧠 Medical AI modelleri yükleniyor...
+✅ Medical AI modelleri hazır
+⚠️ Yandex entegrasyon hatası: this.setupYandexWebmaster is not a function
+🔒 Healthcare compliance framework kuruluyor...
+✅ Compliance framework hazır
+⚠️ Baidu entegrasyon hatası: this.setupBaiduWebmaster is not a function
+✅ Azure Health & Radiology Expert hazır!
+📊 Accuracy Rate: 99.8%
+🔒 Compliance: HIPAA, GDPR, HITECH, FDA, EU MDR
+✅ DuckDuckGo entegrasyonu tamamlandı
+[TokenBucket] Initialized gpt-4-turbo with 200000 tokens
+[TokenBucket] Auto-refill started (every 60000ms)
+❌ SEO System başlatma hatası: TypeError: this.initializeKeywordTracking is not a function
+    at GlobalSEOBacklinkSystem.init (/Users/sardag/Desktop/ailydian-ultra-pro/ailydian-from-github/ai-brain/global-seo-backlink-system.js:245:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[TokenBucket] Initialized gpt-4o with 250000 tokens
+[TokenBucket] Auto-refill started (every 60000ms)
+[TokenBucket] Initialized gemini-pro with 400000 tokens
+[TokenBucket] Auto-refill started (every 60000ms)
+[TokenBucket] Initialized deepseek-r1 with 220000 tokens
+[TokenBucket] Auto-refill started (every 60000ms)
+[TokenBucketManager] Monitoring started (every 5000ms)
+[TokenBucketManager] Initialized 5 model buckets
+🎯 [TokenGovernor] System initialized successfully
+   ✅ Token buckets: 5 models
+   ✅ Fail-safe sentinels: 5 models
+✅ Token Governor: ACTIVE (5 models, TPM management, fail-safe sentinels)
+🏥 Initializing HIPAA Audit Logger...
+❌ azure-openai: Unhealthy - getaddrinfo ENOTFOUND your-endpoint.openai.azure.com (1233ms)
+✅ root: /Users/sardag/Desktop/ailydian-ultra-pro
+✅ aiBrain: /Users/sardag/Desktop/ailydian-ultra-pro/ai-brain
+✅ public: /Users/sardag/Desktop/ailydian-ultra-pro/public
+✅ HIPAA Audit Logger: INITIALIZED
+   📂 Log Path: ./logs/hipaa-audit.log
+   🔐 Retention: 2555 days (7 years)
+   🛡️ PHI Logging: DISABLED (SECURE ✅)
+✅ HIPAA Audit Logger: ACTIVE (6-year retention, tamper-evident, GDPR/KVKK compliant)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 API Endpoints:
+   GET  /api/models     - AI modelleri listesi
+   POST /api/chat       - AI chat endpoint
+   GET  /api/health     - Server sağlık durumu
+   GET  /api/status     - Detaylı server durumu
+   POST /api/azure      - Azure AI Multimodal Services
+   POST /api/azure/search - Azure AI Search + RAG
+   POST /api/multimodal - Advanced Multimodal AI
+   POST /api/translate  - Çoklu dil çeviri servisi
+   GET  /api/languages  - Desteklenen diller
+   POST /api/smoke-test - Sistem smoke testleri
+   🩺 MEDICAL AI APIs (Token Governor Protected):
+   POST /api/medical/chat - Medical AI chat (8 specializations, 10 languages)
+   GET  /api/medical/specializations - Available medical specializations
+   GET  /api/token-governor/status - Token Governor dashboard
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ Redis rate limiting aktif (distributed mode)
