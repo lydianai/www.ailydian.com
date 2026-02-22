@@ -16,39 +16,25 @@
 ## Preview
 
 <div align="center">
-  <img src="docs/screenshots/global-intelligence-hub.png" alt="AiLydian - 3D Globe with Global Communication Statistics" width="800">
-  <br><em>Interactive 3D Globe with real-time global intelligence statistics across LLM, AE, CNN, RNN, GAR, NLP, CV, and RL metrics</em>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="docs/screenshots/ai-news-hub-landing.png" alt="AI NEWS HUB - Intelligence Platform Landing" width="800">
-  <br><em>AI NEWS HUB - Ultra Master Intelligence Hub with 2.4M+ queries, multi-source aggregation, and 100+ language support</em>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="docs/screenshots/platform-modules-grid.png" alt="Platform Modules - 16 Specialized Modules" width="800">
-  <br><em>16 Platform Modules: Dashboard, EarthBrief, Digital Ikiz, Arama, Teknoloji, Arastirma, Kuantum, Metaverse, AI Ajanlari, Medya, Raporlar, Otomasyon, Topluluk, Analitik, IoT Hub, Futurebuilding</em>
+  <img src="docs/screenshots/global-intelligence-hub.png" alt="AiLydian - Interactive 3D Globe with Global Intelligence Statistics" width="800">
+  <br><em>Interactive 3D Globe - Real-time global intelligence visualization with LLM, AE, CNN, RNN, GAR, NLP, CV, and RL metrics across all platforms</em>
 </div>
 
 ---
 
 ## Executive Summary
 
-AiLydian (www.ailydian.com) is the central corporate portal and technology ecosystem hub for a portfolio of 15+ specialized platforms spanning healthcare, fintech, legal tech, agriculture, gaming, tourism, automotive, government, and voice technology. The platform features an interactive Three.js-powered 3D globe visualization displaying real-time global intelligence statistics, an AI NEWS HUB with 2.4M+ queries and multi-source aggregation across 100+ languages, and a modular architecture presenting 16 specialized platform modules.
+AiLydian (www.ailydian.com) is the central corporate portal and technology ecosystem hub for a portfolio of 15+ specialized platforms spanning healthcare, fintech, legal tech, agriculture, gaming, tourism, automotive, government, and voice technology. The platform features an interactive Three.js-powered 3D globe visualization displaying real-time global intelligence statistics across LLM, AE, CNN, RNN, GAR, NLP, CV, and RL metrics, serving as the unified gateway to the entire AiLydian ecosystem.
 
-The corporate website serves three strategic functions: (1) primary brand presence and investor relations hub, (2) centralized navigation gateway to all sub-platforms, and (3) enterprise partnership and consulting engagement engine. Built on Node.js/Express with PostgreSQL via Prisma, the platform implements enterprise-grade security with custom JWT + OAuth authentication, OWASP Top 10 hardening, and comprehensive CSP headers.
+The corporate website serves three strategic functions: (1) primary brand presence and investor relations hub with immersive 3D visualization, (2) centralized navigation gateway to all 15+ sub-platforms, and (3) enterprise partnership and consulting engagement engine. Built on Node.js/Express with PostgreSQL via Prisma, the platform implements enterprise-grade security with custom JWT + OAuth authentication, OWASP Top 10 hardening, and comprehensive CSP headers.
 
 AiLydian's revenue model centers on enterprise consulting engagements, strategic partnership referrals across the ecosystem, and corporate platform licensing -- creating a high-margin, relationship-driven revenue stream.
 
 ## Yonetici Ozeti
 
-AiLydian (www.ailydian.com), saglik, fintech, hukuk teknolojisi, tarim, oyun, turizm, otomotiv, devlet ve ses teknolojisi alanlarinda 15+ uzmanlasmis platformdan olusan bir portfoye yonelik merkezi kurumsal portal ve teknoloji ekosistemi merkezidir. Platform, gercek zamanli kuresel zeka istatistiklerini gosteren Three.js destekli interaktif 3D kure gorsellestirmesi, 100+ dilde 2,4M+ sorgu ve cok kaynakli toplamaya sahip AI NEWS HUB ve 16 uzmanlasmis platform modulunu sunan moduler bir mimariye sahiptir.
+AiLydian (www.ailydian.com), saglik, fintech, hukuk teknolojisi, tarim, oyun, turizm, otomotiv, devlet ve ses teknolojisi alanlarinda 15+ uzmanlasmis platformdan olusan bir portfoye yonelik merkezi kurumsal portal ve teknoloji ekosistemi merkezidir. Platform, LLM, AE, CNN, RNN, GAR, NLP, CV ve RL metrikleri uzerinden gercek zamanli kuresel zeka istatistiklerini gosteren Three.js destekli interaktif 3D kure gorsellestirmesi ile tum AiLydian ekosistemine birlesik giris noktasi olarak hizmet etmektedir.
 
-Kurumsal web sitesi uc stratejik isleve hizmet eder: (1) birincil marka varligi ve yatirimci iliskileri merkezi, (2) tum alt platformlara merkezi navigasyon gecidi ve (3) kurumsal ortaklik ve danismanlik angazman motoru.
+Kurumsal web sitesi uc stratejik isleve hizmet eder: (1) etkileyici 3D gorsellestirme ile birincil marka varligi ve yatirimci iliskileri merkezi, (2) 15+ alt platforma merkezi navigasyon gecidi ve (3) kurumsal ortaklik ve danismanlik angazman motoru.
 
 ---
 
@@ -58,8 +44,6 @@ Kurumsal web sitesi uc stratejik isleve hizmet eder: (1) birincil marka varligi 
 |--------|-------|
 | Platform Portfolio | 15+ specialized sub-platforms |
 | Module Count | 16 integrated modules |
-| AI NEWS HUB Queries | 2.4M+ processed |
-| Language Support | 100+ languages |
 | 3D Visualization | Three.js real-time globe |
 | Product Categories | 9 industry verticals |
 | Authentication | Custom JWT + OAuth |
@@ -126,8 +110,7 @@ AiLydian generates revenue through three channels: **Enterprise consulting** ($5
 ## Competitive Advantages
 
 - **Unparalleled Breadth** -- 15+ production platforms across 9 industry verticals under one ecosystem
-- **3D Intelligence Visualization** -- Real-time Three.js globe with live global statistics (LLM, NLP, CV metrics)
-- **AI NEWS HUB** -- Multi-source intelligence aggregation with 2.4M+ queries across 100+ languages
+- **3D Intelligence Visualization** -- Real-time Three.js globe with live global statistics (LLM, AE, CNN, RNN, GAR, NLP, CV, RL metrics)
 - **Vertical Integration** -- Full-stack from healthcare to fintech to gaming creates cross-selling synergies
 - **Turkish Market First-Mover** -- Deepest technology ecosystem targeting the $900B Turkish economy
 
@@ -139,7 +122,6 @@ AiLydian generates revenue through three channels: **Enterprise consulting** ($5
 graph TD
     subgraph "AiLydian Corporate Portal"
         A[www.ailydian.com] --> B[3D Globe - Three.js]
-        A --> C[AI NEWS HUB]
         A --> D[16 Platform Modules]
         A --> E[Enterprise Gateway]
     end
