@@ -1,9 +1,47 @@
-# AiLydian - Official Corporate Website and Technology Ecosystem Portal
+<div align="center">
 
-> The central hub for the AiLydian technology ecosystem, showcasing 15+ specialized platforms across healthcare, fintech, legal tech, agritech, gaming, and more.
+# AiLydian
 
-[![Status](https://img.shields.io/badge/Status-Live-brightgreen)](https://www.ailydian.com)
-[![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
+<p><em>Official Corporate Website and Technology Ecosystem Portal</em></p>
+
+<p>
+  <a href="#overview"><img src="https://img.shields.io/badge/Docs-Overview-blue?style=for-the-badge" alt="Overview"></a>
+  <a href="#ecosystem-map"><img src="https://img.shields.io/badge/Docs-Ecosystem-purple?style=for-the-badge" alt="Ecosystem"></a>
+  <a href="#key-features"><img src="https://img.shields.io/badge/Docs-Features-green?style=for-the-badge" alt="Features"></a>
+  <a href="#getting-started"><img src="https://img.shields.io/badge/Docs-Setup-orange?style=for-the-badge" alt="Setup"></a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Status-Live-success?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/License-Proprietary-red?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/Platforms-15+-blue?style=flat-square" alt="Platforms">
+  <img src="https://img.shields.io/badge/PWA-Installable-purple?style=flat-square" alt="PWA">
+</p>
+
+<table>
+<tr>
+<td width="50%">
+
+**Platform Highlights**
+- Central hub for 15+ specialized technology platforms
+- Interactive 3D globe visualization with Three.js
+- 9 product categories with mega navigation menu
+- Multi-language support (Turkish + English)
+
+</td>
+<td width="50%">
+
+**Technical Excellence**
+- Node.js Express server with PostgreSQL via Prisma
+- Custom JWT + OAuth authentication system
+- OWASP Top 10 security hardening with CSP headers
+- SEO optimized with structured data and sitemap
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -78,15 +116,18 @@ graph TD
 
 ## Technology Stack
 
-| Category | Technology |
-|----------|------------|
-| Core | HTML5, CSS3, JavaScript |
-| 3D Visualization | Three.js |
-| Backend | Node.js (Express) |
-| Database | PostgreSQL (via Prisma) |
-| Authentication | Custom JWT + OAuth |
-| Deployment | Vercel / Custom Server |
-| Analytics | Custom Analytics Stack |
+<div align="center">
+
+| Category | Technology | Badge |
+|----------|------------|-------|
+| Core | HTML5, CSS3, JavaScript | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| 3D Visualization | Three.js | ![Three.js](https://img.shields.io/badge/Three.js-latest-049EF4?style=flat-square&logo=three.js) |
+| Backend | Node.js (Express) | ![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=node.js) |
+| Database | PostgreSQL (via Prisma) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Prisma-336791?style=flat-square&logo=postgresql) |
+| Authentication | Custom JWT + OAuth | ![JWT](https://img.shields.io/badge/JWT-OAuth-orange?style=flat-square) |
+| Deployment | Vercel / Custom Server | ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=flat-square&logo=vercel) |
+
+</div>
 
 ---
 
@@ -175,5 +216,5 @@ This software is proprietary. See [LICENSE](LICENSE) for details.
 ## Contact
 
 - **Website**: [www.ailydian.com](https://www.ailydian.com)
-- **Email**: sardagemrah@gmail.com
+- **Email**: [contact@ailydian.com](mailto:contact@ailydian.com)
 - **Security**: See [SECURITY.md](SECURITY.md)

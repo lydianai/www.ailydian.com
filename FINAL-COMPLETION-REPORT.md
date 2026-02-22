@@ -158,7 +158,7 @@ CDN: https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js
 
 ```
 ✅ Web Server: Python HTTP Server (port 3500)
-✅ Served Directory: /Users/sardag/Desktop/ailydian-ultra-pro/public/
+✅ Served Directory: /Users/lydian/Desktop/ailydian-ultra-pro/public/
 ✅ Access URL: http://localhost:3500
 ✅ Status: ÇALIŞIYOR VE ERİŞİLEBİLİR
 ```

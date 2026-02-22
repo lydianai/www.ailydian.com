@@ -29,14 +29,14 @@ class SystemScannerBot {
         this.scanFrequency = "Real-time";
 
         this.systemPaths = {
-            root: '/Users/sardag/Desktop/ailydian-ultra-pro',
-            aiBrain: '/Users/sardag/Desktop/ailydian-ultra-pro/ai-brain',
-            public: '/Users/sardag/Desktop/ailydian-ultra-pro/public',
-            routes: '/Users/sardag/Desktop/ailydian-ultra-pro/routes',
-            middleware: '/Users/sardag/Desktop/ailydian-ultra-pro/middleware',
-            config: '/Users/sardag/Desktop/ailydian-ultra-pro/config',
-            logs: '/Users/sardag/Desktop/ailydian-ultra-pro/logs',
-            reports: '/Users/sardag/Desktop/ailydian-ultra-pro/reports'
+            root: '/Users/lydian/Desktop/ailydian-ultra-pro',
+            aiBrain: '/Users/lydian/Desktop/ailydian-ultra-pro/ai-brain',
+            public: '/Users/lydian/Desktop/ailydian-ultra-pro/public',
+            routes: '/Users/lydian/Desktop/ailydian-ultra-pro/routes',
+            middleware: '/Users/lydian/Desktop/ailydian-ultra-pro/middleware',
+            config: '/Users/lydian/Desktop/ailydian-ultra-pro/config',
+            logs: '/Users/lydian/Desktop/ailydian-ultra-pro/logs',
+            reports: '/Users/lydian/Desktop/ailydian-ultra-pro/reports'
         };
 
         this.scanTargets = {

@@ -4,7 +4,7 @@
 
 ## Executive Summary
 
-Successfully updated ALL HTML pages in the /Users/sardag/Desktop/ailydian-ultra-pro/public directory to use consistent "LyDian" branding with Righteous font.
+Successfully updated ALL HTML pages in the /Users/lydian/Desktop/ailydian-ultra-pro/public directory to use consistent "LyDian" branding with Righteous font.
 
 ## Statistics
 

@@ -219,7 +219,7 @@ Ailydian Ultra Pro platformu localhost:3500 portunda başarıyla aktif edildi. w
 
 ### Aktif Servisler
 - **Web Server:** Python HTTP Server (port 3500)
-- **Served Directory:** `/Users/sardag/Desktop/ailydian-ultra-pro/public/`
+- **Served Directory:** `/Users/lydian/Desktop/ailydian-ultra-pro/public/`
 - **Access URL:** http://localhost:3500
 - **Status:** ✅ ÇALIŞIYOR
 
@@ -364,7 +364,7 @@ Ailydian Ultra Pro platformu localhost:3500 portunda başarıyla aktif edildi. w
 
 ### Dosya Yapısı
 ```
-/Users/sardag/Desktop/ailydian-ultra-pro/
+/Users/lydian/Desktop/ailydian-ultra-pro/
 ├── public/                          # Static files (SERVED)
 │   ├── index.html                   # 123 KB, 3600+ satır
 │   ├── chat.html

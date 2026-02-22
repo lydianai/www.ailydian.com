@@ -2,7 +2,7 @@
 
 ## 🎯 PROJE TANIMI
 Proje: www.ailydian.com
-Dizin: /Users/sardag/Desktop/PROJELER/www.ailydian.com
+Dizin: /Users/lydian/Desktop/PROJELER/www.ailydian.com
 
 ## 🤖 AKTİF AGENT'LAR
 Bu proje için aktif tüm AILYDIAN agent'ları kullanılabilir.
@@ -34,7 +34,7 @@ Agent'lar sadece bu projeye odaklanır ve diğer projelerle ASLA karışmaz.
 
 ## 🛡️ İZOLASYON KURALLARI
 
-1. **SADECE BU PROJE:** Tüm işlemler sadece /Users/sardag/Desktop/PROJELER/www.ailydian.com dizininde yapılır
+1. **SADECE BU PROJE:** Tüm işlemler sadece /Users/lydian/Desktop/PROJELER/www.ailydian.com dizininde yapılır
 2. **AGENT İZOLASYONU:** Agent'lar sadece bu projeyi görür
 3. **HAFIZA İZOLASYONU:** Proje hafızası diğer projelerden ayrı
 4. **KOD İZOLASYONU:** Kod değişiklikleri diğer projeleri etkilemez
