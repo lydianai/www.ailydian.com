@@ -2,157 +2,194 @@
 
 # AiLydian
 
-<p><em>Official Corporate Website and Technology Ecosystem Portal</em></p>
+### Enterprise Technology Ecosystem Portal with 15+ Specialized Platforms and 3D Global Visualization
+### Kurumsal Teknoloji Ekosistem Portali - 15+ Uzman Platform ve 3D Kuresel Gorsellestirme
 
-<p>
-  <a href="#overview"><img src="https://img.shields.io/badge/Docs-Overview-blue?style=for-the-badge" alt="Overview"></a>
-  <a href="#ecosystem-map"><img src="https://img.shields.io/badge/Docs-Ecosystem-purple?style=for-the-badge" alt="Ecosystem"></a>
-  <a href="#key-features"><img src="https://img.shields.io/badge/Docs-Features-green?style=for-the-badge" alt="Features"></a>
-  <a href="#getting-started"><img src="https://img.shields.io/badge/Docs-Setup-orange?style=for-the-badge" alt="Setup"></a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Status-Live-success?style=flat-square" alt="Status">
-  <img src="https://img.shields.io/badge/License-Proprietary-red?style=flat-square" alt="License">
-  <img src="https://img.shields.io/badge/Platforms-15+-blue?style=flat-square" alt="Platforms">
-  <img src="https://img.shields.io/badge/PWA-Installable-purple?style=flat-square" alt="PWA">
-</p>
-
-<table>
-<tr>
-<td width="50%">
-
-**Platform Highlights**
-- Central hub for 15+ specialized technology platforms
-- Interactive 3D globe visualization with Three.js
-- 9 product categories with mega navigation menu
-- Multi-language support (Turkish + English)
-
-</td>
-<td width="50%">
-
-**Technical Excellence**
-- Node.js Express server with PostgreSQL via Prisma
-- Custom JWT + OAuth authentication system
-- OWASP Top 10 security hardening with CSP headers
-- SEO optimized with structured data and sitemap
-
-</td>
-</tr>
-</table>
+[![Live Demo](https://img.shields.io/badge/Live-Demo-00ff00?style=for-the-badge)](https://www.ailydian.com)
+[![License](https://img.shields.io/badge/License-Proprietary-blue?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)]()
 
 </div>
 
 ---
 
-## Overview
+## Preview
 
-www.ailydian.com is the official corporate website and ecosystem portal for AiLydian. It serves as the primary entry point for exploring the full portfolio of specialized platforms, establishing corporate identity, and enabling partnerships and enterprise inquiries. The site features an interactive 3D globe visualization, a comprehensive product portfolio, and direct navigation to all 15+ sub-platforms.
+<div align="center">
+  <img src="docs/screenshots/global-intelligence-hub.png" alt="AiLydian - 3D Globe with Global Communication Statistics" width="800">
+  <br><em>Interactive 3D Globe with real-time global intelligence statistics across LLM, AE, CNN, RNN, GAR, NLP, CV, and RL metrics</em>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="docs/screenshots/ai-news-hub-landing.png" alt="AI NEWS HUB - Intelligence Platform Landing" width="800">
+  <br><em>AI NEWS HUB - Ultra Master Intelligence Hub with 2.4M+ queries, multi-source aggregation, and 100+ language support</em>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="docs/screenshots/platform-modules-grid.png" alt="Platform Modules - 16 Specialized Modules" width="800">
+  <br><em>16 Platform Modules: Dashboard, EarthBrief, Digital Ikiz, Arama, Teknoloji, Arastirma, Kuantum, Metaverse, AI Ajanlari, Medya, Raporlar, Otomasyon, Topluluk, Analitik, IoT Hub, Futurebuilding</em>
+</div>
 
 ---
 
-## Ecosystem Map
+## Executive Summary
+
+AiLydian (www.ailydian.com) is the central corporate portal and technology ecosystem hub for a portfolio of 15+ specialized platforms spanning healthcare, fintech, legal tech, agriculture, gaming, tourism, automotive, government, and voice technology. The platform features an interactive Three.js-powered 3D globe visualization displaying real-time global intelligence statistics, an AI NEWS HUB with 2.4M+ queries and multi-source aggregation across 100+ languages, and a modular architecture presenting 16 specialized platform modules.
+
+The corporate website serves three strategic functions: (1) primary brand presence and investor relations hub, (2) centralized navigation gateway to all sub-platforms, and (3) enterprise partnership and consulting engagement engine. Built on Node.js/Express with PostgreSQL via Prisma, the platform implements enterprise-grade security with custom JWT + OAuth authentication, OWASP Top 10 hardening, and comprehensive CSP headers.
+
+AiLydian's revenue model centers on enterprise consulting engagements, strategic partnership referrals across the ecosystem, and corporate platform licensing -- creating a high-margin, relationship-driven revenue stream.
+
+## Yonetici Ozeti
+
+AiLydian (www.ailydian.com), saglik, fintech, hukuk teknolojisi, tarim, oyun, turizm, otomotiv, devlet ve ses teknolojisi alanlarinda 15+ uzmanlasmis platformdan olusan bir portfoye yonelik merkezi kurumsal portal ve teknoloji ekosistemi merkezidir. Platform, gercek zamanli kuresel zeka istatistiklerini gosteren Three.js destekli interaktif 3D kure gorsellestirmesi, 100+ dilde 2,4M+ sorgu ve cok kaynakli toplamaya sahip AI NEWS HUB ve 16 uzmanlasmis platform modulunu sunan moduler bir mimariye sahiptir.
+
+Kurumsal web sitesi uc stratejik isleve hizmet eder: (1) birincil marka varligi ve yatirimci iliskileri merkezi, (2) tum alt platformlara merkezi navigasyon gecidi ve (3) kurumsal ortaklik ve danismanlik angazman motoru.
+
+---
+
+## Key Metrics
+
+| Metric | Value |
+|--------|-------|
+| Platform Portfolio | 15+ specialized sub-platforms |
+| Module Count | 16 integrated modules |
+| AI NEWS HUB Queries | 2.4M+ processed |
+| Language Support | 100+ languages |
+| 3D Visualization | Three.js real-time globe |
+| Product Categories | 9 industry verticals |
+| Authentication | Custom JWT + OAuth |
+| Security | OWASP Top 10 hardened |
+
+---
+
+## Revenue Model & Projections
+
+### Business Model
+
+AiLydian generates revenue through three channels: **Enterprise consulting** ($5K-50K per engagement), **partnership referral fees** (10-15% of sub-platform contract value), and **corporate platform licensing** for white-label deployments.
+
+### 5-Year Revenue Forecast
+
+| Year | Enterprise Clients | ARR | Growth |
+|------|-------------------|-----|--------|
+| Y1 | 10 | $50K | -- |
+| Y2 | 40 | $200K | 300% |
+| Y3 | 80 | $500K | 150% |
+| Y4 | 120 | $1M | 100% |
+| Y5 | 200 | $2M | 100% |
+
+---
+
+## Market Opportunity
+
+| Segment | Size |
+|---------|------|
+| **TAM** (Global Enterprise Software Ecosystem Market) | $800B+ by 2030 |
+| **SAM** (Turkish Enterprise Tech + MENA Expansion) | $15B |
+| **SOM** (Multi-vertical tech ecosystem portals) | $200M |
+
+**Key Differentiators:** Only multi-vertical technology ecosystem with 15+ production platforms under a single corporate umbrella. Real-time 3D intelligence visualization. Full-stack vertical integration from healthcare to gaming.
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+| Layer | Technology |
+|-------|-----------|
+| Backend | Node.js + Express |
+| Database | PostgreSQL via Prisma ORM |
+| 3D Visualization | Three.js (interactive globe) |
+| Frontend | HTML5, CSS3, JavaScript |
+| Authentication | Custom JWT + OAuth |
+| Deployment | Vercel / Custom Server |
+| Security | CSP, CORS, Rate Limiting, OWASP Top 10 |
+| SEO | Structured Data, Sitemap, Multi-Language |
+
+</div>
+
+---
+
+## Competitive Advantages
+
+- **Unparalleled Breadth** -- 15+ production platforms across 9 industry verticals under one ecosystem
+- **3D Intelligence Visualization** -- Real-time Three.js globe with live global statistics (LLM, NLP, CV metrics)
+- **AI NEWS HUB** -- Multi-source intelligence aggregation with 2.4M+ queries across 100+ languages
+- **Vertical Integration** -- Full-stack from healthcare to fintech to gaming creates cross-selling synergies
+- **Turkish Market First-Mover** -- Deepest technology ecosystem targeting the $900B Turkish economy
+
+---
+
+## Architecture
 
 ```mermaid
 graph TD
-    subgraph "AiLydian Ecosystem"
-        A[www.ailydian.com] --> B[Healthcare]
-        A --> C[FinTech]
-        A --> D[Legal Tech]
-        A --> E[AgriTech]
-        A --> F[Gaming]
-        A --> G[Tourism]
-        A --> H[Automotive]
-        A --> I[Government]
+    subgraph "AiLydian Corporate Portal"
+        A[www.ailydian.com] --> B[3D Globe - Three.js]
+        A --> C[AI NEWS HUB]
+        A --> D[16 Platform Modules]
+        A --> E[Enterprise Gateway]
     end
-    subgraph "Healthcare Suite"
-        B --> B1[medi - Hospital SaaS]
-        B --> B2[median - Blockchain Health]
-        B --> B3[medical - Dashboard]
-        B --> B4[agent - Multi-Agent]
+    subgraph "Healthcare Vertical"
+        D --> F[medi.ailydian.com]
+        D --> G[median.ailydian.com]
+        D --> H[medical.ailydian.com]
+        D --> I[agent.ailydian.com]
     end
-    subgraph "Innovation Suite"
-        C --> C1[borsa - Trading]
-        D --> D1[atty - Legal Intel]
-        E --> E1[tarim - AgriTech]
-        F --> F1[anatolia - MMO]
-        F --> F2[oyun - NemesisAI]
+    subgraph "FinTech + Legal"
+        D --> J[borsa.ailydian.com]
+        D --> K[atty.ailydian.com]
+    end
+    subgraph "Industry Verticals"
+        D --> L[tarim - AgriTech]
+        D --> M[otoail - Automotive]
+        D --> N[holiday - Tourism]
+        D --> O[voice - Voice AI]
+        D --> P[anatolia - Gaming]
+    end
+    subgraph "Backend Infrastructure"
+        E --> Q[Node.js + Express]
+        Q --> R[PostgreSQL via Prisma]
+        Q --> S[JWT + OAuth Auth]
     end
 ```
 
 ---
 
-## Key Features
-
-### Corporate Identity
-- Brand showcase with visual identity standards
-- Executive team and company information
-- Partnership and enterprise contact information
-- Investor relations section
-
-### Technology Ecosystem Overview
-- **15+ Platform Portfolio**: Interactive directory of all AiLydian sub-platforms
-- **3D Globe Visualization**: Three.js powered interactive Earth with AI Communication Hub markers
-- **Mega Navigation Menu**: 9 product categories with dropdown platform listings
-- **SEO Optimized**: Structured data, sitemap, multi-language support
-
-### Product Portfolio Presentation
-- Healthcare Suite: medi, median, medical, agent
-- FinTech: borsa (trading platform)
-- Legal Tech: atty (legal intelligence)
-- AgriTech: tarim (agricultural intelligence)
-- Gaming: anatolia (MMO), oyun (NemesisAI)
-- Tourism: holiday, alanya
-- Automotive: otoail
-- Voice: voice assistant PWA
-
-### Technical Highlights
-- Responsive design for all device sizes
-- Progressive Web App (installable)
-- Multi-language support (Turkish + English)
-- Performance optimized with CDN delivery
-
----
-
-## Technology Stack
-
-<div align="center">
-
-| Category | Technology | Badge |
-|----------|------------|-------|
-| Core | HTML5, CSS3, JavaScript | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| 3D Visualization | Three.js | ![Three.js](https://img.shields.io/badge/Three.js-latest-049EF4?style=flat-square&logo=three.js) |
-| Backend | Node.js (Express) | ![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=node.js) |
-| Database | PostgreSQL (via Prisma) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Prisma-336791?style=flat-square&logo=postgresql) |
-| Authentication | Custom JWT + OAuth | ![JWT](https://img.shields.io/badge/JWT-OAuth-orange?style=flat-square) |
-| Deployment | Vercel / Custom Server | ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=flat-square&logo=vercel) |
-
-</div>
-
----
-
 ## Platform Directory
 
-| Platform | URL | Category |
-|----------|-----|----------|
-| medi | medi.ailydian.com | Hospital SaaS |
-| median | median.ailydian.com | Blockchain Health Records |
-| medical | medical.ailydian.com | Clinical Dashboard |
-| agent | agent.ailydian.com | Multi-Agent Healthcare |
-| borsa | borsa.ailydian.com | Trading Platform |
-| atty | atty.ailydian.com | Legal Intelligence |
-| tarim | tarim.ailydian.com | Agricultural Intelligence |
-| anatolia | anatolia.ailydian.com | MMO Gaming |
-| oyun | oyun.ailydian.com | Gaming (NemesisAI) |
-| voice | voice.ailydian.com | Voice Assistant PWA |
-| otoail | otoail.ailydian.com | Automotive Intelligence |
-| holiday | holiday.ailydian.com | Tourism Platform |
+| Platform | Domain | Vertical |
+|----------|--------|----------|
+| Medi | medi.ailydian.com | Hospital SaaS |
+| Median | median.ailydian.com | Blockchain Health Records |
+| Medical | medical.ailydian.com | Clinical Dashboard |
+| Agent | agent.ailydian.com | Multi-Agent Healthcare |
+| Borsa | borsa.ailydian.com | Crypto Trading |
+| Atty | atty.ailydian.com | Legal Intelligence |
+| Tarim | tarim.ailydian.com | Agricultural Intelligence |
+| OtoAil | otoail.ailydian.com | Automotive Intelligence |
+| Holiday | holiday.ailydian.com | Tourism Platform |
+| Voice | voice.ailydian.com | Voice Assistant PWA |
+| Anatolia | anatolia.ailydian.com | MMO Gaming |
+| Mimar | mimar.ailydian.com | Architecture Design |
+| ADE | ade.ailydian.com | Smart Government |
 
 ---
 
 ## Getting Started
-
-### Local Development
 
 ```bash
 # Clone the repository
@@ -164,6 +201,7 @@ npm install
 
 # Configure environment
 cp .env.example .env
+# Set DATABASE_URL, JWT_SECRET, SESSION_SECRET
 
 # Start server
 node server.js
@@ -171,50 +209,34 @@ node server.js
 npm run dev
 ```
 
-### Environment Variables
-
-```env
-DATABASE_URL=postgresql://user:password@host:5432/ailydian
-JWT_SECRET=your_jwt_secret_here
-SESSION_SECRET=your_session_secret_here
-NEXT_PUBLIC_APP_URL=https://www.ailydian.com
-```
-
 ---
 
-## Project Structure
+## Security & Compliance
 
-```
-www.ailydian.com/
-├── ailydian-from-github/   # Main frontend application
-│   └── public/             # Static HTML/CSS/JS assets
-├── ai-brain/               # Backend intelligence modules
-├── routes/                 # Express route handlers
-├── middleware/             # Authentication and security middleware
-├── config/                 # Configuration files
-├── public/                 # Additional static assets
-├── server.js               # Main Express server
-└── tsconfig.json           # TypeScript configuration
-```
-
----
-
-## Security
-
-This site implements enterprise-grade security headers, CSP, rate limiting, and OWASP Top 10 protections. See [SECURITY.md](SECURITY.md) for vulnerability reporting.
-
----
-
-## License
-
-Copyright (c) 2024-2026 Lydian (AiLydian). All Rights Reserved.
-
-This software is proprietary. See [LICENSE](LICENSE) for details.
+| Standard | Implementation |
+|----------|---------------|
+| OWASP Top 10 | Full mitigation applied |
+| CSP Headers | Strict Content Security Policy |
+| Authentication | Custom JWT + OAuth with MFA support |
+| Transport | HTTPS/TLS 1.3 enforced |
+| Rate Limiting | Per-IP and per-user throttling |
+| KVKK/GDPR | Personal data protection compliant |
 
 ---
 
 ## Contact
 
-- **Website**: [www.ailydian.com](https://www.ailydian.com)
-- **Email**: [contact@ailydian.com](mailto:contact@ailydian.com)
-- **Security**: See [SECURITY.md](SECURITY.md)
+| | |
+|---|---|
+| **Email** | info@ailydian.com |
+| **Email** | ailydian@ailydian.com |
+| **Web** | [https://ailydian.com](https://ailydian.com) |
+| **Corporate Portal** | [https://www.ailydian.com](https://www.ailydian.com) |
+
+---
+
+## License
+
+Copyright (c) 2025-2026 AiLydian. All Rights Reserved.
+
+This software is proprietary and confidential. Unauthorized copying, distribution, or modification is strictly prohibited.
