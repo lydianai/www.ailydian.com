@@ -174,15 +174,15 @@ class AutonomousAIDeveloper {
             // Query multiple AI models for comprehensive analysis
             const aiQueries = [
                 {
-                    model: 'azure-gpt-4o',
+                    model: 'azure-engine-a',
                     prompt: `As a senior fullstack developer, analyze: ${question}. Provide actionable insights and code examples.`
                 },
                 {
-                    model: 'claude-3.5-sonnet',
+                    model: 'engine-b-advanced',
                     prompt: `Research and provide technical analysis on: ${question}. Focus on implementation details.`
                 },
                 {
-                    model: 'gemini-2.0-flash',
+                    model: 'engine-c-fast',
                     prompt: `From a system architecture perspective, explain: ${question}. Include performance considerations.`
                 }
             ];

@@ -254,19 +254,19 @@ class SuperAILegalExpert {
         const models = {
             'hukuk_uzmani': {
                 provider: 'azure',
-                model: 'gpt-4-turbo',
+                model: 'legal-engine-pro',
                 specialty: 'Türk Hukuku',
                 accuracy: 99.1
             },
             'international_law': {
                 provider: 'anthropic',
-                model: 'claude-3-opus',
+                model: 'legal-engine-b',
                 specialty: 'Uluslararası Hukuk',
                 accuracy: 98.7
             },
             'us_law': {
                 provider: 'openai',
-                model: 'gpt-4',
+                model: 'legal-engine-a',
                 specialty: 'ABD Hukuku',
                 accuracy: 98.9
             }

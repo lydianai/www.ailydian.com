@@ -2,7 +2,7 @@ node:internal/modules/cjs/loader:1210
   throw err;
   ^
 
-Error: Cannot find module '/Users/sardag/Desktop/ailydian-ultra-pro/server.js'
+Error: Cannot find module '/home/lydian/Masaüstü/PROJELER/ailydian-ultra-pro/server.js'
     at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
     at Module._load (node:internal/modules/cjs/loader:1038:27)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)

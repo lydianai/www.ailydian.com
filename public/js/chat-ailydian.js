@@ -1257,8 +1257,8 @@ class AiLydianChat {
     selectCapability(capability) {
         // Set appropriate model based on capability
         const capabilityModelMap = {
-            'azure': 'azure-gpt-4o',
-            'google': 'google-gemini-pro',
+            'azure': 'azure-engine-a',
+            'google': 'google-engine-c',
             'zai': 'zai-developer',
             'deepseek': 'deepseek-r1',
             'translation': 'azure-translator',

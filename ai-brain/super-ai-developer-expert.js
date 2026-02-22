@@ -139,7 +139,7 @@ class SuperAIDeveloperExpert {
 
             // Current Tech Trends 2025
             trends2025: [
-                "AI-Powered Development (GitHub Copilot, ChatGPT)",
+                "AI-Powered Development Tools",
                 "WebAssembly (WASM) adoption",
                 "Edge Computing ve Serverless",
                 "Micro-frontends architecture",

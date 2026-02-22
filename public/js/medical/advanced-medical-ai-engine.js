@@ -15,16 +15,16 @@ class LydianMedicalAIEngine {
         // AI Model Configurations
         this.models = {
             primary: {
-                provider: "azure-openai",
-                model: "gpt-4-turbo",
-                deployment: "gpt-4-32k",
+                provider: "azure-ai",
+                model: "analysis-engine-pro",
+                deployment: "analysis-engine-32k",
                 temperature: 0.1, // Low for medical accuracy
                 maxTokens: 8000
             },
             vision: {
-                provider: "azure-openai",
-                model: "gpt-4-vision",
-                deployment: "gpt-4-vision-preview"
+                provider: "azure-ai",
+                model: "vision-engine-pro",
+                deployment: "vision-engine-preview"
             },
             specialized: {
                 radiology: "azure-health-radiology",

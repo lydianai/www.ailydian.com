@@ -1,6 +1,6 @@
 /**
  * AiLydian Ultra Pro - Persistent Development Iteration System
- * Prevents Claude Terminal Shutdown & Ensures Continuous Development
+ * Prevents Terminal Shutdown Prevents Claude Terminal Shutdown & Ensures Ensures Continuous Development
  */
 
 const fs = require('fs').promises;

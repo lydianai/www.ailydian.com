@@ -4,9 +4,9 @@
  *
  * Priority Order:
  * 1. Groq (llama-3.3-70b) - Ultra-fast, 0.5-1s response
- * 2. Anthropic Claude - Best reasoning
+ * 2. Engine B - Advanced reasoning
  * 3. Azure OpenAI - Enterprise reliability
- * 4. OpenAI GPT-4 - Final fallback
+ * 4. Engine D - Final fallback
  *
  * @version 2.0.0
  * @author Ailydian Team
@@ -25,9 +25,9 @@ class AilydianAIClient {
     // Provider priority order (Groq first!)
     this.providers = [
       { name: 'Groq', endpoint: '/api/lydian-iq/solve', priority: 1 },
-      { name: 'Claude', endpoint: '/api/chat/claude', priority: 2 },
+      { name: 'Engine-B', endpoint: '/api/chat/engine-b', priority: 2 },
       { name: 'Azure', endpoint: '/api/chat/azure', priority: 3 },
-      { name: 'OpenAI', endpoint: '/api/chat/openai', priority: 4 }
+      { name: 'Engine-D', endpoint: '/api/chat/engine-d', priority: 4 }
     ];
 
     this.currentProvider = null;

@@ -36,7 +36,7 @@ class LyDianProjectsFAB {
                     right: 20px;
                     bottom: calc(env(safe-area-inset-bottom) + 88px);
                     z-index: 1000;
-                    font-family: var(--font-chatgpt), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+                    font-family: var(--font-primary), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
                 }
 
                 @media (min-width: 768px) {

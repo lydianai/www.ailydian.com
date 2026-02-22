@@ -330,13 +330,13 @@ Groq Lightning:
 
 ## 🔒 GÜVENLİK ÖZELLİKLERİ
 
-### Emrah Şardağ System Prompt
+### Lydian System Prompt
 
 **Özellik:** Tüm AI isteklerine şifreli sistem promptu enjekte edilir.
 
 ```javascript
 // Encrypted system prompt injection
-const secureSystemPrompt = getEmrahLydianPrompt(); // 🔐 Encrypted
+const secureSystemPrompt = getLydianLydianPrompt(); // 🔐 Encrypted
 const baseSystemPrompt =
   'Sen FIRILDAK adında Türkçe konuşan yapay zeka asistanısın...';
 const fullSystemPrompt = secureSystemPrompt + "\n\n" + baseSystemPrompt;

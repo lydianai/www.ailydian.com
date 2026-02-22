@@ -425,19 +425,19 @@ class SuperAIMedicalExpert {
         const medicalModels = {
             'general_medicine': {
                 provider: 'azure',
-                model: 'gpt-4-turbo-medical',
+                model: 'medical-engine-pro',
                 specialty: 'Genel Tıp',
                 accuracy: 99.2
             },
             'clinical_diagnosis': {
-                provider: 'anthropic',
-                model: 'claude-3-medical',
+                provider: 'secondary',
+                model: 'medical-engine-b',
                 specialty: 'Klinik Tanı',
                 accuracy: 99.5
             },
             'pharmacology': {
-                provider: 'openai',
-                model: 'gpt-4-pharma',
+                provider: 'tertiary',
+                model: 'pharma-engine',
                 specialty: 'Farmakoloji',
                 accuracy: 99.1
             }

@@ -43,11 +43,11 @@ class StatusIndicators {
                         <div class="status-details" id="apiDetails">
                             <div class="detail-row">
                                 <span>OpenAI:</span>
-                                <span class="status-value" id="openai-status">-</span>
+                                <span class="status-value" id="engine-a-status">-</span>
                             </div>
                             <div class="detail-row">
                                 <span>Azure:</span>
-                                <span class="status-value" id="azure-openai-status">-</span>
+                                <span class="status-value" id="azure-engine-status">-</span>
                             </div>
                             <div class="detail-row">
                                 <span>Google AI:</span>
@@ -59,7 +59,7 @@ class StatusIndicators {
                             </div>
                             <div class="detail-row">
                                 <span>EnterpriseAI:</span>
-                                <span class="status-value" id="claude-status">-</span>
+                                <span class="status-value" id="engine-b-status">-</span>
                             </div>
                         </div>
                     </div>

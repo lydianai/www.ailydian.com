@@ -194,7 +194,7 @@
 [TokenBucket] Initialized gpt-4-turbo with 200000 tokens
 [TokenBucket] Auto-refill started (every 60000ms)
 ❌ SEO System başlatma hatası: TypeError: this.initializeKeywordTracking is not a function
-    at GlobalSEOBacklinkSystem.init (/Users/sardag/Desktop/ailydian-ultra-pro/ailydian-from-github/ai-brain/global-seo-backlink-system.js:245:24)
+    at GlobalSEOBacklinkSystem.init (/home/lydian/Masaüstü/PROJELER/ailydian-ultra-pro/ailydian-from-github/ai-brain/global-seo-backlink-system.js:245:24)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [TokenBucket] Initialized gpt-4o with 250000 tokens
 [TokenBucket] Auto-refill started (every 60000ms)
@@ -210,9 +210,9 @@
 ✅ Token Governor: ACTIVE (5 models, TPM management, fail-safe sentinels)
 🏥 Initializing HIPAA Audit Logger...
 ❌ azure-openai: Unhealthy - getaddrinfo ENOTFOUND your-endpoint.openai.azure.com (1470ms)
-✅ root: /Users/sardag/Desktop/ailydian-ultra-pro
-✅ aiBrain: /Users/sardag/Desktop/ailydian-ultra-pro/ai-brain
-✅ public: /Users/sardag/Desktop/ailydian-ultra-pro/public
+✅ root: /home/lydian/Masaüstü/PROJELER/ailydian-ultra-pro
+✅ aiBrain: /home/lydian/Masaüstü/PROJELER/ailydian-ultra-pro/ai-brain
+✅ public: /home/lydian/Masaüstü/PROJELER/ailydian-ultra-pro/public
 ✅ HIPAA Audit Logger: INITIALIZED
    📂 Log Path: ./logs/hipaa-audit.log
    🔐 Retention: 2555 days (7 years)

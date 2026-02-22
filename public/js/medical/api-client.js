@@ -40,7 +40,7 @@ const MedicalAPI = {
     // CHAT & CONVERSATION APIs
     // ============================================
     async sendChatMessage(message, specialization = 'general-medicine') {
-        return this.request('/medical/chat-azure-openai', {
+        return this.request('/medical/chat-ai-engine', {
             method: 'POST',
             body: JSON.stringify({
                 message,
