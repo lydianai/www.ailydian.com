@@ -1,6 +1,6 @@
 // ========================================
 // Lydian IQ Enhanced - Iyileştirmeler
-// Version: 2.0.0 - Sardag Edition
+// Version: 2.0.0 - Lydian Edition
 // ========================================
 
 // Global Error Handler

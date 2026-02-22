@@ -1,6 +1,6 @@
 /* ========================================
    AiLydian Knowledge Base - Interactive JavaScript
-   Version: 2.1 Sardag Edition
+   Version: 2.1 Lydian Edition
    Features: Search, Voice Search, AI Integration, Analytics
    ======================================== */
 

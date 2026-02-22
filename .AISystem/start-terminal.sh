@@ -1,12 +1,12 @@
 #!/bin/bash
 # www.ailydian.com - AILYDIAN AISystem Terminal
 
-cd "/Users/sardag/Desktop/PROJELER/www.ailydian.com"
+cd "/home/lydian/Masaüstü/PROJELER/www.ailydian.com"
 
 echo "🤖 AILYDIAN PROJE TERMİNALİ"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "📁 Proje: www.ailydian.com"
-echo "📂 Dizin: /Users/sardag/Desktop/PROJELER/www.ailydian.com"
+echo "📂 Dizin: /home/lydian/Masaüstü/PROJELER/www.ailydian.com"
 echo "🇹🇷 Türkçe komutlar aktif"
 echo "🤖 Tüm agent'lar hazır"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

@@ -336,7 +336,7 @@ Groq Lightning:
 
 ```javascript
 // Encrypted system prompt injection
-const secureSystemPrompt = getEmrahSardagPrompt(); // 🔐 Encrypted
+const secureSystemPrompt = getEmrahLydianPrompt(); // 🔐 Encrypted
 const baseSystemPrompt =
   'Sen FIRILDAK adında Türkçe konuşan yapay zeka asistanısın...';
 const fullSystemPrompt = secureSystemPrompt + "\n\n" + baseSystemPrompt;

@@ -1,6 +1,6 @@
 // ========================================
 // LyDian IQ Reasoning Engine - Frontend
-// Version: 1.0.0 - Sardag Edition
+// Version: 1.0.0 - Lydian Edition
 // Interactive UI & API Integration
 // ========================================
 
@@ -473,7 +473,7 @@ class DeepSeekR1Frontend {
 ║                                                                ║
 ║      🧠 LyDian IQ Reasoning Engine - Frontend Active       ║
 ║                                                                ║
-║      Version: 1.0.0 - Sardag Edition                          ║
+║      Version: 1.0.0 - Lydian Edition                          ║
 ║      Accuracy: 99.5% | Max Tokens: 32,768                     ║
 ║      Domains: Mathematics, Coding, Science, Strategy, Logistics║
 ║                                                                ║
